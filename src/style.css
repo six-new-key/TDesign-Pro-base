@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* TDesign 菜单弹出层图标间距优化 */
+.t-popup .t-menu__item .t-icon {
+  margin-right: 10px !important;
+}
+
+.t-popup .t-submenu__title .t-icon {
+  margin-right: 10px !important;
+}
+
+.t-menu--popup .t-menu__item {
+  gap: 10px !important;
+}
+
+.t-menu--popup .t-submenu__title {
+  gap: 10px !important;
+}
+
+/* 自定义好看的滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--td-bg-color-page);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--td-component-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--td-gray-color-7);
+}
