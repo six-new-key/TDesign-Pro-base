@@ -1,10 +1,10 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { constantRoutes } from '@/router/routes'
-import { 
-  THEME_MODE, 
+import {
+  THEME_MODE,
   setThemeMode as applyThemeMode,
-  getThemeFromStorage, 
+  getThemeFromStorage,
   saveThemeToStorage,
   getSystemThemeMode,
   watchSystemThemeChange
@@ -14,7 +14,7 @@ export const useAppStore = defineStore('app', () => {
   // state
   const title = ref('')
   const sidebarTheme = ref('dark') // 菜单栏主题
-  
+
   // 新的主题系统状态
   const themeMode = ref(THEME_MODE.LIGHT) // 主题模式: light, dark, auto
   const actualThemeMode = ref('light') // 实际应用的主题模式
@@ -23,69 +23,70 @@ export const useAppStore = defineStore('app', () => {
   const menuItems = ref([]) // 缓存的菜单项数据
   const isLocked = ref(false) // 锁屏状态
   const lockPassword = ref('') // 锁屏密码
-  
+
   // 界面显示控制状态
   const showBreadcrumb = ref(true) // 面包屑显示控制
   const showPageTags = ref(true) // 页面标签显示控制
   const pageTagsShadow = ref(true) // 页面标签底部阴影效果控制
-  
+  const defaultLang = ref('zhcn') // 语言
+
   // getters
   const currentTitle = computed(() => title.value)
   const currentSidebarTheme = computed(() => sidebarTheme.value)
   const isSidebarCollapsed = computed(() => sidebarCollapsed.value)
   const lockStatus = computed(() => isLocked.value)
   const currentLockPassword = computed(() => lockPassword.value)
-  
+
   // 新的主题系统 getters
   const currentThemeMode = computed(() => themeMode.value)
   const currentActualThemeMode = computed(() => actualThemeMode.value)
   const isDarkMode = computed(() => actualThemeMode.value === 'dark')
   const isAutoMode = computed(() => themeMode.value === THEME_MODE.AUTO)
-  
+
   // 界面显示控制 getters
   const breadcrumbVisible = computed(() => showBreadcrumb.value)
   const pageTagsVisible = computed(() => showPageTags.value)
   const pageTagsShadowEnabled = computed(() => pageTagsShadow.value)
-  
+
   // actions
   const setTitle = (newTitle) => {
     title.value = newTitle
   }
-  
+
   // 新的主题系统方法
   const setThemeMode = (mode) => {
     themeMode.value = mode
     updateActualThemeMode()
     saveThemeConfig()
   }
-  
+
   const updateActualThemeMode = () => {
     let newActualMode = themeMode.value
-    
+
     if (themeMode.value === THEME_MODE.AUTO) {
       newActualMode = getSystemThemeMode()
     }
-    
+
     actualThemeMode.value = newActualMode
     applyThemeMode(newActualMode)
   }
-  
+
   const applyCurrentTheme = () => {
     applyThemeMode(actualThemeMode.value)
   }
-  
+
   const saveThemeConfig = () => {
     saveThemeToStorage({
       mode: themeMode.value
     })
   }
-  
+
   const loadThemeConfig = () => {
     const config = getThemeFromStorage()
     themeMode.value = config.mode
     updateActualThemeMode()
   }
-  
+
   const toggleThemeMode = () => {
     if (themeMode.value === THEME_MODE.LIGHT) {
       setThemeMode(THEME_MODE.DARK)
@@ -95,13 +96,13 @@ export const useAppStore = defineStore('app', () => {
       setThemeMode(THEME_MODE.LIGHT)
     }
   }
-  
+
   const setSidebarTheme = (newTheme) => {
     sidebarTheme.value = newTheme
   }
-  
 
-  
+
+
   const toggleSidebarTheme = (theme) => {
     if (theme) {
       // 如果传入了具体的主题值，直接设置
@@ -112,46 +113,44 @@ export const useAppStore = defineStore('app', () => {
       setSidebarTheme(newTheme)
     }
   }
-  
+
   const setSidebarCollapsed = (collapsed) => {
     sidebarCollapsed.value = collapsed
   }
-  
+
   const toggleSidebarCollapsed = () => {
     sidebarCollapsed.value = !sidebarCollapsed.value
   }
-  
+
   // 界面显示控制方法
   const setBreadcrumbVisible = (visible) => {
     showBreadcrumb.value = visible
   }
-  
+
   const setPageTagsVisible = (visible) => {
     showPageTags.value = visible
   }
-  
+
   const setPageTagsShadow = (enabled) => {
     pageTagsShadow.value = enabled
   }
-  
+
   const toggleBreadcrumbVisible = () => {
     showBreadcrumb.value = !showBreadcrumb.value
   }
-  
+
   const togglePageTagsVisible = () => {
     showPageTags.value = !showPageTags.value
   }
-  
+
   const togglePageTagsShadow = () => {
     pageTagsShadow.value = !pageTagsShadow.value
   }
-  
 
-  
   const initNewThemeSystem = () => {
     // 加载保存的主题配置
     loadThemeConfig()
-    
+
     // 如果是自动模式，监听系统主题变化
     if (themeMode.value === THEME_MODE.AUTO) {
       watchSystemThemeChange((systemMode) => {
@@ -198,7 +197,7 @@ export const useAppStore = defineStore('app', () => {
   // 初始化菜单数据
   const initMenuItems = () => {
     const items = []
-    
+
     // 递归提取菜单项，只缓存最深层的子菜单
     const extractMenuItems = (routes, parentPath = '') => {
       routes.forEach(route => {
@@ -209,7 +208,7 @@ export const useAppStore = defineStore('app', () => {
           }
           return
         }
-        
+
         // 如果有子路由，递归处理子路由，不添加当前路由
         if (route.children && route.children.length > 0) {
           extractMenuItems(route.children, route.path)
@@ -226,7 +225,7 @@ export const useAppStore = defineStore('app', () => {
         }
       })
     }
-    
+
     extractMenuItems(constantRoutes)
     menuItems.value = items
   }
@@ -236,13 +235,29 @@ export const useAppStore = defineStore('app', () => {
     if (!keyword.trim()) {
       return []
     }
-    
+
     const lowerKeyword = keyword.toLowerCase()
-    return menuItems.value.filter(item => 
+    return menuItems.value.filter(item =>
       item.title.toLowerCase().includes(lowerKeyword)
     )
   }
-  
+
+  //设置语言
+  const setLang = (lang) => {
+    defaultLang.value = lang
+  }
+
+  //获取语言
+  const getLang = () => {
+    return defaultLang.value
+  }
+
+  //语言切换
+  const langChange = (value) => {
+    window.localStorage.setItem('lang', value)
+    window.location.reload()
+  }
+
   return {
     title,
     sidebarTheme,
@@ -294,13 +309,17 @@ export const useAppStore = defineStore('app', () => {
     triggerRefresh,
     resetRefresh,
     initMenuItems,
-    searchMenuItems
+    searchMenuItems,
+    setLang,
+    getLang,
+    langChange,
+    defaultLang
   }
 }, {
   persist: {
     key: 'app-store',
     storage: localStorage,
     //只有添加到里面才会持久化
-    paths: ['title', 'sidebarTheme', 'sidebarCollapsed', 'isLocked', 'lockPassword', 'themeMode', 'showBreadcrumb', 'showPageTags', 'pageTagsShadow']
+    paths: ['title', 'sidebarTheme', 'sidebarCollapsed', 'isLocked', 'lockPassword', 'themeMode', 'showBreadcrumb', 'showPageTags', 'pageTagsShadow', 'defaultLang']
   }
 })

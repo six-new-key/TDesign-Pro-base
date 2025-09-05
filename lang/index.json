@@ -1,0 +1,454 @@
+{
+	"koca2": {
+		"zh-cn": "登录",
+		"en": "Log in"
+	},
+	"qylb2": {
+		"zh-cn": "首页",
+		"en": "Home Page"
+	},
+	"ezwpt3": {
+		"zh-cn": "控制台",
+		"en": "Console"
+	},
+	"f6y6dw4": {
+		"zh-cn": "用户管理",
+		"en": "User Management"
+	},
+	"f6r81s4": {
+		"zh-cn": "用户列表",
+		"en": "User list"
+	},
+	"hxhx7p4": {
+		"zh-cn": "角色管理",
+		"en": "Role Management"
+	},
+	"ao6ont4": {
+		"zh-cn": "内容管理",
+		"en": "Content management"
+	},
+	"dblh1a4": {
+		"zh-cn": "文章管理",
+		"en": "Article Management"
+	},
+	"dbeip64": {
+		"zh-cn": "文章列表",
+		"en": "List of articles"
+	},
+	"ar7we04": {
+		"zh-cn": "创建文章",
+		"en": "Create an article"
+	},
+	"dbefxq4": {
+		"zh-cn": "文章分类",
+		"en": "Article Classification"
+	},
+	"brgrpi4": {
+		"zh-cn": "媒体管理",
+		"en": "Media Management"
+	},
+	"bgc6ry4": {
+		"zh-cn": "图片管理",
+		"en": "Image management"
+	},
+	"i0iwk04": {
+		"zh-cn": "视频管理",
+		"en": "Video management"
+	},
+	"gao8uh4": {
+		"zh-cn": "系统管理",
+		"en": "System Management"
+	},
+	"garzt14": {
+		"zh-cn": "系统配置",
+		"en": "System configuration"
+	},
+	"gakfrq4": {
+		"zh-cn": "系统日志",
+		"en": "System Log"
+	},
+	"d7l2l04": {
+		"zh-cn": "数据备份",
+		"en": "Data backup"
+	},
+	"i5j98k4": {
+		"zh-cn": "财务管理",
+		"en": "Financial management"
+	},
+	"d430z84": {
+		"zh-cn": "收入管理",
+		"en": "Revenue management"
+	},
+	"d41mk04": {
+		"zh-cn": "支出管理",
+		"en": "Expenditure management"
+	},
+	"i5f49u4": {
+		"zh-cn": "财务报表",
+		"en": "Financial statements"
+	},
+	"fcewjt4": {
+		"zh-cn": "登录成功",
+		"en": "Login successful"
+	},
+	"p5h35y5": {
+		"zh-cn": "侧边栏布局",
+		"en": "Sidebar layout"
+	},
+	"md14j5i": {
+		"zh-cn": "传统的侧边栏布局，包含菜单和内容区域",
+		"en": "The traditional sidebar layout includes menu and content areas"
+	},
+	"jty72n4": {
+		"zh-cn": "顶部布局",
+		"en": "Top layout"
+	},
+	"2zy687k": {
+		"zh-cn": "顶部导航布局，通常包含顶部菜单和内容区域",
+		"en": "The top navigation layout usually includes the top menu and content area"
+	},
+	"e82p1q4": {
+		"zh-cn": "混合布局",
+		"en": "Mixed layout"
+	},
+	"naslmld": {
+		"zh-cn": "侧边栏和顶部导航的混合布局",
+		"en": "A hybrid layout of sidebar and top navigation"
+	},
+	"cyfyi79": {
+		"zh-cn": "正在切换布局...",
+		"en": "Switching layouts..."
+	},
+	"hn9nk3": {
+		"zh-cn": "用户量",
+		"en": "User volume"
+	},
+	"l76hs3": {
+		"zh-cn": "访问量",
+		"en": "Visit volume"
+	},
+	"c4q4d3": {
+		"zh-cn": "下载量",
+		"en": "Download volume"
+	},
+	"c7wpy3": {
+		"zh-cn": "使用量",
+		"en": "Usage volume"
+	},
+	"ee49mq4": {
+		"zh-cn": "流量趋势",
+		"en": "\"Traffic trend\""
+	},
+	"dl0wig4": {
+		"zh-cn": "月访问量",
+		"en": "Monthly visits"
+	},
+	"i9xmq3": {
+		"zh-cn": "移动端",
+		"en": "Mobile terminal"
+	},
+	"2d7g3": {
+		"zh-cn": "PC端",
+		"en": "PC end"
+	},
+	"gmss2": {
+		"zh-cn": "平板",
+		"en": "\"Tablet\""
+	},
+	"eae82": {
+		"zh-cn": "其他",
+		"en": "Others"
+	},
+	"i961qw4": {
+		"zh-cn": "访问设备",
+		"en": "Access the device"
+	},
+	"d5cnkv4": {
+		"zh-cn": "搜索引擎",
+		"en": "Search engine"
+	},
+	"ffed4w4": {
+		"zh-cn": "直接访问",
+		"en": "Direct access"
+	},
+	"il5bpf4": {
+		"zh-cn": "邮件营销",
+		"en": "Email marketing"
+	},
+	"gok5bq4": {
+		"zh-cn": "联盟广告",
+		"en": "Alliance Advertising"
+	},
+	"fts32": {
+		"zh-cn": "外站",
+		"en": "\"Outer station"
+	},
+	"j0b1": {
+		"zh-cn": "总",
+		"en": "The total"
+	},
+	"z4fvcu6": {
+		"zh-cn": " 流量趋势 ",
+		"en": "\"Traffic trend\""
+	},
+	"a2jko86": {
+		"zh-cn": " 月访问量 ",
+		"en": "Monthly visits"
+	},
+	"i8zuem4": {
+		"zh-cn": "访问数量",
+		"en": "Number of visits"
+	},
+	"i8zzfe4": {
+		"zh-cn": "访问来源",
+		"en": "\"Access source"
+	},
+	"fgkxx3": {
+		"zh-cn": "星期日",
+		"en": "Sunday"
+	},
+	"fgg803": {
+		"zh-cn": "星期一",
+		"en": "Monday"
+	},
+	"fggbw3": {
+		"zh-cn": "星期二",
+		"en": "Tuesday"
+	},
+	"fgg893": {
+		"zh-cn": "星期三",
+		"en": "Wednesday"
+	},
+	"fghyz3": {
+		"zh-cn": "星期四",
+		"en": "Thursday"
+	},
+	"fggc43": {
+		"zh-cn": "星期五",
+		"en": "Friday"
+	},
+	"fggwd3": {
+		"zh-cn": "星期六",
+		"en": "Saturday"
+	},
+	"ino1": {
+		"zh-cn": "年",
+		"en": "years"
+	},
+	"kco1": {
+		"zh-cn": "月",
+		"en": "month"
+	},
+	"hbyz2": {
+		"zh-cn": "日 ",
+		"en": "day"
+	},
+	"fips7y7": {
+		"zh-cn": "请输入解锁密码",
+		"en": "Please enter the unlock password"
+	},
+	"yyf1w1a": {
+		"zh-cn": "密码错误，请重新输入",
+		"en": "The password is incorrect. Please re-enter"
+	},
+	"i0e3rh4": {
+		"zh-cn": "解锁成功",
+		"en": "Unlock success"
+	},
+	"i1md0l8": {
+		"zh-cn": "解锁失败，请重试",
+		"en": "Unlock failed. Please try again"
+	},
+	"uegdpc6": {
+		"zh-cn": " 点击解锁 ",
+		"en": "Click to unlock"
+	},
+	"ecjhv27": {
+		"zh-cn": "请输入锁屏密码",
+		"en": "Please enter the lock screen password"
+	},
+	"k607wy6": {
+		"zh-cn": " 进入系统 ",
+		"en": "Enter the system"
+	},
+	"kpwldo6": {
+		"zh-cn": " 返回登录 ",
+		"en": "Return to Login"
+	},
+	"javh2": {
+		"zh-cn": "浅色",
+		"en": "Light color"
+	},
+	"jezl2": {
+		"zh-cn": "深色",
+		"en": "Dark color"
+	},
+	"iiuf2s4": {
+		"zh-cn": "跟随系统",
+		"en": "Follow the system"
+	},
+	"ai8tm54": {
+		"zh-cn": "主题设置",
+		"en": "Theme Settings"
+	},
+	"eflm3v6": {
+		"zh-cn": " 主题模式 ",
+		"en": "Theme Mode"
+	},
+	"3wtbbm6": {
+		"zh-cn": " 界面显示 ",
+		"en": "Interface display"
+	},
+	"tan59v5": {
+		"zh-cn": "菜单栏主题",
+		"en": "Menu bar theme"
+	},
+	"yik0sc5": {
+		"zh-cn": "面包屑导航",
+		"en": "Breadcrumb navigation"
+	},
+	"juxl0k4": {
+		"zh-cn": "页面标签",
+		"en": "Page tag"
+	},
+	"tfrmu06": {
+		"zh-cn": "标签阴影效果",
+		"en": "Label shadow effect"
+	},
+	"v8a1bh6": {
+		"zh-cn": " 布局设置 ",
+		"en": "Layout Settings"
+	},
+	"dure2": {
+		"zh-cn": "中文",
+		"en": "Chinese"
+	},
+	"mtva2": {
+		"zh-cn": "英文",
+		"en": "English"
+	},
+	"hpqe2": {
+		"zh-cn": "搜索",
+		"en": "Search"
+	},
+	"ejix2": {
+		"zh-cn": "刷新",
+		"en": "Refresh"
+	},
+	"ii96jl4": {
+		"zh-cn": "退出全屏",
+		"en": "Exit full screen"
+	},
+	"ihihjl4": {
+		"zh-cn": "进入全屏",
+		"en": "Enter full screen"
+	},
+	"g85n2": {
+		"zh-cn": "展开",
+		"en": "\"Unfold"
+	},
+	"hwvn2": {
+		"zh-cn": "收缩",
+		"en": "Contraction"
+	},
+	"f5g353": {
+		"zh-cn": "操作一",
+		"en": "Operation One"
+	},
+	"f5g713": {
+		"zh-cn": "操作二",
+		"en": "Operation Two"
+	},
+	"ceh33s5": {
+		"zh-cn": "更多...",
+		"en": "More..."
+	},
+	"7wcz836": {
+		"zh-cn": "搜索导航菜单",
+		"en": "Search navigation menu"
+	},
+	"k7nd4j6": {
+		"zh-cn": "暂无搜索结果",
+		"en": "There are no search results for the moment"
+	},
+	"aim7t14": {
+		"zh-cn": "使用文档",
+		"en": "Use the documentation"
+	},
+	"tuqyz97": {
+		"zh-cn": "问题 & 帮助",
+		"en": "Questions & Help"
+	},
+	"j6fqzj4": {
+		"zh-cn": "锁定屏幕",
+		"en": "Lock the screen"
+	},
+	"iifi5w4": {
+		"zh-cn": "退出登录",
+		"en": "Log out"
+	},
+	"vhgmu88": {
+		"zh-cn": "锁定失败，请重试",
+		"en": "Lock failed. Please try again"
+	},
+	"mtpif4": {
+		"zh-cn": " 锁定 ",
+		"en": "Locked"
+	},
+	"wsnp4e8": {
+		"zh-cn": "确认退出登录吗？",
+		"en": "Are you sure you are logging out?"
+	},
+	"7grhuz6": {
+		"zh-cn": "请输入用户名",
+		"en": "Please enter your username"
+	},
+	"2j9vj05": {
+		"zh-cn": "请输入密码",
+		"en": "Please enter the password."
+	},
+	"sua2rea": {
+		"zh-cn": "密码长度不能少于6位",
+		"en": "The password length must not be less than 6 characters"
+	},
+	"yvob6y7": {
+		"zh-cn": "账号或密码错误",
+		"en": "Account or password is incorrect"
+	},
+	"ahgyeie": {
+		"zh-cn": "开箱即用的大型中后台管理系统",
+		"en": "A large-scale middle and back-end management system ready to use out of the box"
+	},
+	"5wld57h": {
+		"zh-cn": "工作台、高准确、界面精美的后台模板",
+		"en": "Workbench, highly accurate, and beautifully designed background templates"
+	},
+	"rfxc917": {
+		"zh-cn": "欢迎回来 👋",
+		"en": "Welcome back 👋"
+	},
+	"f7swrmi": {
+		"zh-cn": "请输入您的账号信息以开始管理您的项目",
+		"en": "Please enter your account information to start managing your project"
+	},
+	"7b32n16": {
+		"zh-cn": "请输入验证码",
+		"en": "Please enter the verification code"
+	},
+	"nbcoc3": {
+		"zh-cn": "验证码",
+		"en": "Verification code"
+	},
+	"hykar44": {
+		"zh-cn": "记住账号",
+		"en": "Remember the account"
+	},
+	"xfgztg5": {
+		"zh-cn": "忘记密码？",
+		"en": "Forgot password?"
+	},
+	"ide6e4": {
+		"zh-cn": " 登录 ",
+		"en": "Log in"
+	}
+}

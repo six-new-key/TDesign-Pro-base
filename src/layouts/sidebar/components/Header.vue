@@ -33,6 +33,16 @@
             </t-button>
           </t-tooltip>
 
+          <!-- 语言切换，使用下拉菜单 -->
+          <t-dropdown :options="langOptions" :min-column-width="90">
+            <t-button theme="default" shape="square" variant="text">
+              <template #icon>
+                <IconFont name="translate-1" size="14px" />
+              </template>
+            </t-button>
+          </t-dropdown>
+
+
           <!-- 全屏切换 -->
           <t-tooltip :content="isFullscreen ? '退出全屏' : '进入全屏'">
             <t-button theme="default" shape="square" variant="text" @click="toggleFullscreen">
@@ -73,6 +83,45 @@ const showSearchDialog = ref(false)
 
 // 全屏相关
 const isFullscreen = ref(false)
+// 语言切换
+const langOptions = ref([
+  {
+    content: '中文',
+    value: 'zhcn',
+    active: appStore.getLang() === 'zhcn',
+    onClick: () => {
+      changeLang('zhcn')
+    },
+    prefixIcon: (h) => {
+      if (appStore.getLang() === 'zhcn') {
+        return h(IconFont, { name: 'check', size: '14px' })
+      }
+      // 使用正确的 TNode 函数签名，接收 h 作为参数
+      return null;
+    }
+  },
+  {
+    content: '英文',
+    value: 'en',
+    active: appStore.getLang() === 'en',
+    onClick: () => {
+      changeLang('en')
+    },
+    prefixIcon: (h) => {
+      if (appStore.getLang() === 'en') {
+        return h(IconFont, { name: 'check', size: '14px' })
+      }
+      // 使用正确的 TNode 函数签名，接收 h 作为参数
+      return null;
+    }
+  }
+])
+
+// 切换语言
+const changeLang = (value) => {
+  appStore.setLang(value)
+  appStore.langChange(value)
+}
 
 // 面包屑导航
 const breadcrumbItems = computed(() => {
