@@ -9,6 +9,9 @@ import {
   getSystemThemeMode,
   watchSystemThemeChange
 } from '@/utils/theme'
+import { merge } from 'lodash-es'
+import enConfig from 'tdesign-vue-next/es/locale/en_US'
+import zhConfig from 'tdesign-vue-next/es/locale/zh_CN'
 
 export const useAppStore = defineStore('app', () => {
   // state
@@ -100,8 +103,6 @@ export const useAppStore = defineStore('app', () => {
   const setSidebarTheme = (newTheme) => {
     sidebarTheme.value = newTheme
   }
-
-
 
   const toggleSidebarTheme = (theme) => {
     if (theme) {
@@ -258,6 +259,16 @@ export const useAppStore = defineStore('app', () => {
     window.location.reload()
   }
 
+  // 语言配置 getter
+  const globalConfig = computed(() => {
+    if (defaultLang.value === 'zhcn') {
+      return merge(zhConfig)
+    } else if (defaultLang.value === 'en') {
+      return merge(enConfig)
+    }
+    return merge(zhConfig) // 默认返回中文配置
+  })
+
   return {
     title,
     sidebarTheme,
@@ -283,6 +294,7 @@ export const useAppStore = defineStore('app', () => {
     breadcrumbVisible,
     pageTagsVisible,
     pageTagsShadowEnabled,
+    globalConfig,
     setTitle,
     setSidebarTheme,
     toggleSidebarTheme,

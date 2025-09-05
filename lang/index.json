@@ -450,5 +450,17 @@
 	"ide6e4": {
 		"zh-cn": " 登录 ",
 		"en": "Log in"
+	},
+	"e5xl2": {
+		"zh-cn": "使用",
+		"en": "\"Use"
+	},
+	"ix5sqvp": {
+		"zh-cn": "包裹业务功能的最外层组件，点击下方图标查看示例代码",
+		"en": "Wrap the outermost component of the business function. Click the icon below to view the sample code"
+	},
+	"byvz43": {
+		"zh-cn": "中文：",
+		"en": "Chinese"
 	}
 }
