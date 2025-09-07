@@ -1,5 +1,5 @@
 <template>
-    <t-drawer v-model:visible="visible" title="主题设置" placement="right" size="350px" :show-overlay="true"
+    <t-drawer v-model:visible="visible" title="主题设置" placement="right" size="360px" :show-overlay="true"
         :close-on-overlay-click="true" :footer="false" class="theme-drawer">
         <div class="theme-drawer-content">
             <!-- 主题模式设置 -->
@@ -92,14 +92,16 @@
             <!-- 页面动画设置 -->
             <div class="setting-section">
                 <h4 class="section-title">
-                    页面动画
+                    页面动效
                 </h4>
                 <div class="animation-options">
                     <div v-for="animation in pageAnimations" :key="animation.value" class="animation-item"
                         :class="{ active: appStore.currentPageAnimation === animation.value }"
                         @click="handleAnimationChange(animation.value)">
-                        <t-icon :name="animation.icon" class="animation-icon" />
-                        <span class="animation-label">{{ animation.label }}</span>
+                        <div class="animation-content">
+                            <t-icon :name="animation.icon" class="animation-icon" />
+                            <span class="animation-label">{{ animation.label }}</span>
+                        </div>
                         <t-icon v-if="appStore.currentPageAnimation === animation.value" name="check" class="check-icon" />
                     </div>
                 </div>
@@ -145,14 +147,68 @@ const themeModes = [
 
 // 页面动画效果选项
 const pageAnimations = [
+    // 滑动动效
     { value: PAGE_ANIMATIONS.SLIDE_LEFT, label: '从左滑入', icon: 'chevron-right' },
     { value: PAGE_ANIMATIONS.SLIDE_RIGHT, label: '从右滑入', icon: 'chevron-left' },
     { value: PAGE_ANIMATIONS.SLIDE_UP, label: '从下滑入', icon: 'chevron-up' },
     { value: PAGE_ANIMATIONS.SLIDE_DOWN, label: '从上滑入', icon: 'chevron-down' },
+    
+    // 淡入淡出动效
     { value: PAGE_ANIMATIONS.FADE, label: '淡入淡出', icon: 'view-module' },
+    { value: PAGE_ANIMATIONS.FADE_IN, label: '淡入', icon: 'brightness-1' },
+    { value: PAGE_ANIMATIONS.FADE_IN_UP, label: '淡入向上', icon: 'arrow-up' },
+    { value: PAGE_ANIMATIONS.FADE_IN_DOWN, label: '淡入向下', icon: 'arrow-down' },
+    { value: PAGE_ANIMATIONS.FADE_IN_LEFT, label: '淡入向左', icon: 'arrow-left' },
+    { value: PAGE_ANIMATIONS.FADE_IN_RIGHT, label: '淡入向右', icon: 'arrow-right' },
+    
+    // 缩放动效
     { value: PAGE_ANIMATIONS.ZOOM, label: '缩放效果', icon: 'fullscreen' },
+    { value: PAGE_ANIMATIONS.ZOOM_IN, label: '放大进入', icon: 'zoom-in' },
+    { value: PAGE_ANIMATIONS.ZOOM_IN_UP, label: '放大向上', icon: 'fullscreen-exit' },
+    { value: PAGE_ANIMATIONS.ZOOM_IN_DOWN, label: '放大向下', icon: 'aspect-ratio' },
+    
+    // 翻转动效
     { value: PAGE_ANIMATIONS.FLIP, label: '翻转效果', icon: 'swap' },
-    { value: PAGE_ANIMATIONS.BOUNCE, label: '弹跳效果', icon: 'jump' }
+    { value: PAGE_ANIMATIONS.FLIP_IN_X, label: 'X轴翻转', icon: 'swap-horizontal' },
+    { value: PAGE_ANIMATIONS.FLIP_IN_Y, label: 'Y轴翻转', icon: 'swap-vertical' },
+    
+    // 弹跳动效
+    { value: PAGE_ANIMATIONS.BOUNCE, label: '弹跳效果', icon: 'jump' },
+    { value: PAGE_ANIMATIONS.BOUNCE_IN, label: '弹跳进入', icon: 'gesture-tap' },
+    { value: PAGE_ANIMATIONS.BOUNCE_IN_UP, label: '弹跳向上', icon: 'trending-up' },
+    { value: PAGE_ANIMATIONS.BOUNCE_IN_DOWN, label: '弹跳向下', icon: 'trending-down' },
+    { value: PAGE_ANIMATIONS.BOUNCE_IN_LEFT, label: '弹跳向左', icon: 'call-received' },
+    { value: PAGE_ANIMATIONS.BOUNCE_IN_RIGHT, label: '弹跳向右', icon: 'call-made' },
+    
+    // 旋转动效
+    { value: PAGE_ANIMATIONS.ROTATE_IN, label: '旋转进入', icon: 'rotate-right' },
+    { value: PAGE_ANIMATIONS.ROTATE_IN_DOWN_LEFT, label: '左下旋转', icon: 'rotate-ccw' },
+    { value: PAGE_ANIMATIONS.ROTATE_IN_DOWN_RIGHT, label: '右下旋转', icon: 'rotate-cw' },
+    { value: PAGE_ANIMATIONS.ROTATE_IN_UP_LEFT, label: '左上旋转', icon: 'undo' },
+    { value: PAGE_ANIMATIONS.ROTATE_IN_UP_RIGHT, label: '右上旋转', icon: 'redo' },
+    
+    // 光速动效
+    { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN, label: '光速进入', icon: 'flash' },
+    { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN_LEFT, label: '光速左入', icon: 'fast-forward' },
+    { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN_RIGHT, label: '光速右入', icon: 'fast-rewind' },
+    
+    // 回弹动效
+    { value: PAGE_ANIMATIONS.BACK_IN_UP, label: '回弹向上', icon: 'keyboard-arrow-up' },
+    { value: PAGE_ANIMATIONS.BACK_IN_DOWN, label: '回弹向下', icon: 'keyboard-arrow-down' },
+    { value: PAGE_ANIMATIONS.BACK_IN_LEFT, label: '回弹向左', icon: 'keyboard-arrow-left' },
+    { value: PAGE_ANIMATIONS.BACK_IN_RIGHT, label: '回弹向右', icon: 'keyboard-arrow-right' },
+    
+    // 滚动动效
+    { value: PAGE_ANIMATIONS.ROLL_IN, label: '滚动进入', icon: 'refresh' },
+    
+    // 摆动动效
+    { value: PAGE_ANIMATIONS.SWING, label: '摆动效果', icon: 'vibration' },
+    { value: PAGE_ANIMATIONS.WOBBLE, label: '摇摆效果', icon: 'waves' },
+    { value: PAGE_ANIMATIONS.JELLO, label: '果冻效果', icon: 'blur-on' },
+    
+    // 心跳动效
+    { value: PAGE_ANIMATIONS.HEART_BEAT, label: '心跳效果', icon: 'favorite' },
+    { value: PAGE_ANIMATIONS.PULSE, label: '脉冲效果', icon: 'radio-button-checked' }
 ]
 
 // 侧边栏主题开关状态
@@ -353,21 +409,26 @@ defineExpose({
 
 /* 动画选项样式 */
 .animation-options {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
     padding: 15px;
 }
 
 .animation-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 12px;
+    justify-content: space-between;
+    padding: 8px 4px;
     border: 1px solid var(--td-border-level-1-color);
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
     background: var(--td-bg-color-container);
+    min-height: 40px;
+    position: relative;
+    margin: 0 4px 4px 0;
 }
 
 .animation-item:hover {
@@ -377,10 +438,18 @@ defineExpose({
 
 .animation-item.active {
     border-color: var(--td-brand-color);
+    background: var(--td-brand-color-light);
+}
+
+.animation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
 }
 
 .animation-icon {
-    margin-right: 12px;
     font-size: 16px;
     color: var(--td-text-color-secondary);
 }
@@ -390,9 +459,18 @@ defineExpose({
 }
 
 .animation-label {
-    flex: 1;
-    font-size: 14px;
+    font-size: 11px;
     color: var(--td-text-color-primary);
+    text-align: center;
+    line-height: 1.1;
+}
+
+.animation-item .check-icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 12px;
+    color: var(--td-brand-color);
 }
 
 /* 布局选项样式 */

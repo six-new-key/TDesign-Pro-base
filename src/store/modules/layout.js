@@ -31,21 +31,21 @@ export const useLayoutStore = defineStore(
       return [
         {
           name: "sidebar",
-          label: "侧边栏布局",
+          label: "侧边栏导航布局",
           icon: "sidebar",
-          description: "传统的侧边栏布局，包含菜单和内容区域",
+          description: "包含菜单和内容区域",
         },
         {
           name: "topbar",
-          label: "顶部布局",
+          label: "顶部导航布局",
           icon: "topbar",
-          description: "顶部导航布局，通常包含顶部菜单和内容区域",
+          description: "包含顶部菜单和内容区域",
         },
         {
           name: "mixed",
-          label: "混合布局",
+          label: "混合导航布局",
           icon: "mixed",
-          description: "侧边栏和顶部导航的混合布局",
+          description: "包含侧边栏和顶部导航的混合布局",
         },
       ];
     };

@@ -506,5 +506,177 @@
 	"clnlpq4": {
 		"zh-cn": "弹跳效果",
 		"en": "Bouncing effect"
+	},
+	"7ckwpf7": {
+		"zh-cn": " 页面d'x ",
+		"en": "Page d'x"
+	},
+	"uqkpqua": {
+		"zh-cn": " 页面d'xiao ",
+		"en": "Page d'xiao"
+	},
+	"8kvyh96": {
+		"zh-cn": " 页面动效 ",
+		"en": "Page animations"
+	},
+	"kq1t947": {
+		"zh-cn": "侧边栏导航布局",
+		"en": "Sidebar navigation layout"
+	},
+	"m4h4vx6": {
+		"zh-cn": "顶部导航布局",
+		"en": "Top navigation layout"
+	},
+	"vj54jg6": {
+		"zh-cn": "混合导航布局",
+		"en": "Hybrid navigation layout"
+	},
+	"ll8hi29": {
+		"zh-cn": "包含菜单和内容区域",
+		"en": "It includes a menu and content area"
+	},
+	"5oqxxyd": {
+		"zh-cn": "通常包含顶部菜单和内容区域",
+		"en": "It usually includes a top menu and a content area"
+	},
+	"h6sub8b": {
+		"zh-cn": "包含顶部菜单和内容区域",
+		"en": "It includes a top menu and a content area"
+	},
+	"jqwp6lf": {
+		"zh-cn": "包含侧边栏和顶部导航的混合布局",
+		"en": "A hybrid layout featuring a sidebar and top navigation"
+	},
+	"j4x02": {
+		"zh-cn": "淡入",
+		"en": "Fade in"
+	},
+	"e78z3x4": {
+		"zh-cn": "淡入向上",
+		"en": "Fade into the upward trend"
+	},
+	"e78z3y4": {
+		"zh-cn": "淡入向下",
+		"en": "Fade in downward"
+	},
+	"e7928p4": {
+		"zh-cn": "淡入向左",
+		"en": "Fade to the left"
+	},
+	"e7909y4": {
+		"zh-cn": "淡入向右",
+		"en": "Fade to the right"
+	},
+	"d5gaj74": {
+		"zh-cn": "放大进入",
+		"en": "Zoom in"
+	},
+	"d563r64": {
+		"zh-cn": "放大向上",
+		"en": "Zoom upwards"
+	},
+	"d563r74": {
+		"zh-cn": "放大向下",
+		"en": "Zoom down"
+	},
+	"n765p4": {
+		"zh-cn": "X轴翻转",
+		"en": "X-axis inversion"
+	},
+	"n7t584": {
+		"zh-cn": "Y轴翻转",
+		"en": "Y-axis inversion"
+	},
+	"cluq104": {
+		"zh-cn": "弹跳进入",
+		"en": "Jump in"
+	},
+	"clkj8z4": {
+		"zh-cn": "弹跳向上",
+		"en": "Jump upwards"
+	},
+	"clkj904": {
+		"zh-cn": "弹跳向下",
+		"en": "Jump downward"
+	},
+	"clkmdr4": {
+		"zh-cn": "弹跳向左",
+		"en": "Jump to the left"
+	},
+	"clkkf04": {
+		"zh-cn": "弹跳向右",
+		"en": "Jump to the right"
+	},
+	"dfwhij4": {
+		"zh-cn": "旋转进入",
+		"en": "Rotate in"
+	},
+	"c6ah0m4": {
+		"zh-cn": "左下旋转",
+		"en": "Rotate to the lower left"
+	},
+	"ax45fd4": {
+		"zh-cn": "右下旋转",
+		"en": "Rotate down to the right"
+	},
+	"c6ag9x4": {
+		"zh-cn": "左上旋转",
+		"en": "Rotate to the upper left"
+	},
+	"ax44oo4": {
+		"zh-cn": "右上旋转",
+		"en": "Rotate to the upper right"
+	},
+	"auvx404": {
+		"zh-cn": "光速进入",
+		"en": "The speed of light enters"
+	},
+	"aunf794": {
+		"zh-cn": "光速左入",
+		"en": "Left entry at the speed of light"
+	},
+	"aulqa04": {
+		"zh-cn": "光速右入",
+		"en": "Right entry at the speed of light"
+	},
+	"bcscc44": {
+		"zh-cn": "回弹向上",
+		"en": "Rebound upward"
+	},
+	"bcscc54": {
+		"zh-cn": "回弹向下",
+		"en": "Rebound downward"
+	},
+	"bcsfgw4": {
+		"zh-cn": "回弹向左",
+		"en": "Rebound to the left"
+	},
+	"bcsdi54": {
+		"zh-cn": "回弹向右",
+		"en": "Rebound to the right"
+	},
+	"ec4t4o4": {
+		"zh-cn": "滚动进入",
+		"en": "Scroll in"
+	},
+	"czwkc64": {
+		"zh-cn": "摆动效果",
+		"en": "Swing effect"
+	},
+	"d2i3jn4": {
+		"zh-cn": "摇摆效果",
+		"en": "Swing effect"
+	},
+	"dewzeb4": {
+		"zh-cn": "果冻效果",
+		"en": "Jelly effect"
+	},
+	"co3pwk4": {
+		"zh-cn": "心跳效果",
+		"en": "Heartbeat effect"
+	},
+	"gmcycd4": {
+		"zh-cn": "脉冲效果",
+		"en": "Pulse effect"
 	}
 }
