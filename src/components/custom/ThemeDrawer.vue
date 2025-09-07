@@ -152,62 +152,33 @@ const pageAnimations = [
     { value: PAGE_ANIMATIONS.SLIDE_RIGHT, label: '从右滑入', icon: 'chevron-left' },
     { value: PAGE_ANIMATIONS.SLIDE_UP, label: '从下滑入', icon: 'chevron-up' },
     { value: PAGE_ANIMATIONS.SLIDE_DOWN, label: '从上滑入', icon: 'chevron-down' },
-    
     // 淡入淡出动效
     { value: PAGE_ANIMATIONS.FADE, label: '淡入淡出', icon: 'view-module' },
-    { value: PAGE_ANIMATIONS.FADE_IN, label: '淡入', icon: 'brightness-1' },
     { value: PAGE_ANIMATIONS.FADE_IN_UP, label: '淡入向上', icon: 'arrow-up' },
     { value: PAGE_ANIMATIONS.FADE_IN_DOWN, label: '淡入向下', icon: 'arrow-down' },
     { value: PAGE_ANIMATIONS.FADE_IN_LEFT, label: '淡入向左', icon: 'arrow-left' },
     { value: PAGE_ANIMATIONS.FADE_IN_RIGHT, label: '淡入向右', icon: 'arrow-right' },
-    
-    // 缩放动效
-    { value: PAGE_ANIMATIONS.ZOOM, label: '缩放效果', icon: 'fullscreen' },
-    { value: PAGE_ANIMATIONS.ZOOM_IN, label: '放大进入', icon: 'zoom-in' },
-    { value: PAGE_ANIMATIONS.ZOOM_IN_UP, label: '放大向上', icon: 'fullscreen-exit' },
     { value: PAGE_ANIMATIONS.ZOOM_IN_DOWN, label: '放大向下', icon: 'aspect-ratio' },
-    
-    // 翻转动效
-    { value: PAGE_ANIMATIONS.FLIP, label: '翻转效果', icon: 'swap' },
-    { value: PAGE_ANIMATIONS.FLIP_IN_X, label: 'X轴翻转', icon: 'swap-horizontal' },
-    { value: PAGE_ANIMATIONS.FLIP_IN_Y, label: 'Y轴翻转', icon: 'swap-vertical' },
-    
-    // 弹跳动效
-    { value: PAGE_ANIMATIONS.BOUNCE, label: '弹跳效果', icon: 'jump' },
-    { value: PAGE_ANIMATIONS.BOUNCE_IN, label: '弹跳进入', icon: 'gesture-tap' },
-    { value: PAGE_ANIMATIONS.BOUNCE_IN_UP, label: '弹跳向上', icon: 'trending-up' },
-    { value: PAGE_ANIMATIONS.BOUNCE_IN_DOWN, label: '弹跳向下', icon: 'trending-down' },
     { value: PAGE_ANIMATIONS.BOUNCE_IN_LEFT, label: '弹跳向左', icon: 'call-received' },
     { value: PAGE_ANIMATIONS.BOUNCE_IN_RIGHT, label: '弹跳向右', icon: 'call-made' },
-    
     // 旋转动效
-    { value: PAGE_ANIMATIONS.ROTATE_IN, label: '旋转进入', icon: 'rotate-right' },
     { value: PAGE_ANIMATIONS.ROTATE_IN_DOWN_LEFT, label: '左下旋转', icon: 'rotate-ccw' },
     { value: PAGE_ANIMATIONS.ROTATE_IN_DOWN_RIGHT, label: '右下旋转', icon: 'rotate-cw' },
     { value: PAGE_ANIMATIONS.ROTATE_IN_UP_LEFT, label: '左上旋转', icon: 'undo' },
     { value: PAGE_ANIMATIONS.ROTATE_IN_UP_RIGHT, label: '右上旋转', icon: 'redo' },
-    
     // 光速动效
-    { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN, label: '光速进入', icon: 'flash' },
     { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN_LEFT, label: '光速左入', icon: 'fast-forward' },
     { value: PAGE_ANIMATIONS.LIGHT_SPEED_IN_RIGHT, label: '光速右入', icon: 'fast-rewind' },
-    
-    // 回弹动效
-    { value: PAGE_ANIMATIONS.BACK_IN_UP, label: '回弹向上', icon: 'keyboard-arrow-up' },
-    { value: PAGE_ANIMATIONS.BACK_IN_DOWN, label: '回弹向下', icon: 'keyboard-arrow-down' },
-    { value: PAGE_ANIMATIONS.BACK_IN_LEFT, label: '回弹向左', icon: 'keyboard-arrow-left' },
-    { value: PAGE_ANIMATIONS.BACK_IN_RIGHT, label: '回弹向右', icon: 'keyboard-arrow-right' },
-    
-    // 滚动动效
-    { value: PAGE_ANIMATIONS.ROLL_IN, label: '滚动进入', icon: 'refresh' },
-    
+    // 缩放动效
+    { value: PAGE_ANIMATIONS.ZOOM, label: '缩放效果', icon: 'fullscreen' },
+    // 弹跳动效
+    { value: PAGE_ANIMATIONS.BOUNCE, label: '弹跳效果', icon: 'jump' },
+    // 翻转动效
+    { value: PAGE_ANIMATIONS.FLIP, label: '翻转效果', icon: 'swap' },
     // 摆动动效
     { value: PAGE_ANIMATIONS.SWING, label: '摆动效果', icon: 'vibration' },
-    { value: PAGE_ANIMATIONS.WOBBLE, label: '摇摆效果', icon: 'waves' },
     { value: PAGE_ANIMATIONS.JELLO, label: '果冻效果', icon: 'blur-on' },
-    
     // 心跳动效
-    { value: PAGE_ANIMATIONS.HEART_BEAT, label: '心跳效果', icon: 'favorite' },
     { value: PAGE_ANIMATIONS.PULSE, label: '脉冲效果', icon: 'radio-button-checked' }
 ]
 

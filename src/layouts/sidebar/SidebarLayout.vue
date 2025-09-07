@@ -16,7 +16,7 @@
           <t-loading text="刷新中..." />
         </div>
         <!-- 正常内容区域 -->
-        <transition v-else :enter-active-class="`animate__animated ${getEnterAnimation}`"
+        <transition appear v-else :enter-active-class="`animate__animated ${getEnterAnimation}`"
           :leave-active-class="`animate__animated ${getLeaveAnimation}`">
           <router-view :key="routerViewKey" />
         </transition>
@@ -54,8 +54,6 @@ const getEnterAnimation = computed(() => {
     // 淡入淡出动效
     case PAGE_ANIMATIONS.FADE:
       return 'animate__fadeIn'
-    case PAGE_ANIMATIONS.FADE_IN:
-      return 'animate__fadeIn'
     case PAGE_ANIMATIONS.FADE_IN_UP:
       return 'animate__fadeInUp'
     case PAGE_ANIMATIONS.FADE_IN_DOWN:
@@ -68,38 +66,22 @@ const getEnterAnimation = computed(() => {
     // 缩放动效
     case PAGE_ANIMATIONS.ZOOM:
       return 'animate__zoomIn'
-    case PAGE_ANIMATIONS.ZOOM_IN:
-      return 'animate__zoomIn'
-    case PAGE_ANIMATIONS.ZOOM_IN_UP:
-      return 'animate__zoomInUp'
     case PAGE_ANIMATIONS.ZOOM_IN_DOWN:
       return 'animate__zoomInDown'
     
     // 翻转动效
     case PAGE_ANIMATIONS.FLIP:
       return 'animate__flipInY'
-    case PAGE_ANIMATIONS.FLIP_IN_X:
-      return 'animate__flipInX'
-    case PAGE_ANIMATIONS.FLIP_IN_Y:
-      return 'animate__flipInY'
     
     // 弹跳动效
     case PAGE_ANIMATIONS.BOUNCE:
       return 'animate__bounceIn'
-    case PAGE_ANIMATIONS.BOUNCE_IN:
-      return 'animate__bounceIn'
-    case PAGE_ANIMATIONS.BOUNCE_IN_UP:
-      return 'animate__bounceInUp'
-    case PAGE_ANIMATIONS.BOUNCE_IN_DOWN:
-      return 'animate__bounceInDown'
     case PAGE_ANIMATIONS.BOUNCE_IN_LEFT:
       return 'animate__bounceInLeft'
     case PAGE_ANIMATIONS.BOUNCE_IN_RIGHT:
       return 'animate__bounceInRight'
     
     // 旋转动效
-    case PAGE_ANIMATIONS.ROTATE_IN:
-      return 'animate__rotateIn'
     case PAGE_ANIMATIONS.ROTATE_IN_DOWN_LEFT:
       return 'animate__rotateInDownLeft'
     case PAGE_ANIMATIONS.ROTATE_IN_DOWN_RIGHT:
@@ -110,38 +92,18 @@ const getEnterAnimation = computed(() => {
       return 'animate__rotateInUpRight'
     
     // 光速动效
-    case PAGE_ANIMATIONS.LIGHT_SPEED_IN:
-      return 'animate__lightSpeedInRight'
     case PAGE_ANIMATIONS.LIGHT_SPEED_IN_LEFT:
       return 'animate__lightSpeedInLeft'
     case PAGE_ANIMATIONS.LIGHT_SPEED_IN_RIGHT:
       return 'animate__lightSpeedInRight'
     
-    // 回弹动效
-    case PAGE_ANIMATIONS.BACK_IN_UP:
-      return 'animate__backInUp'
-    case PAGE_ANIMATIONS.BACK_IN_DOWN:
-      return 'animate__backInDown'
-    case PAGE_ANIMATIONS.BACK_IN_LEFT:
-      return 'animate__backInLeft'
-    case PAGE_ANIMATIONS.BACK_IN_RIGHT:
-      return 'animate__backInRight'
-    
-    // 滚动动效
-    case PAGE_ANIMATIONS.ROLL_IN:
-      return 'animate__rollIn'
-    
     // 摆动动效
     case PAGE_ANIMATIONS.SWING:
       return 'animate__swing'
-    case PAGE_ANIMATIONS.WOBBLE:
-      return 'animate__wobble'
     case PAGE_ANIMATIONS.JELLO:
       return 'animate__jello'
     
     // 心跳动效
-    case PAGE_ANIMATIONS.HEART_BEAT:
-      return 'animate__heartBeat'
     case PAGE_ANIMATIONS.PULSE:
       return 'animate__pulse'
     

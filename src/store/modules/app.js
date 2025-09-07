@@ -23,7 +23,6 @@ export const PAGE_ANIMATIONS = {
   
   // 淡入淡出动效
   FADE: 'fade',
-  FADE_IN: 'fadeIn',
   FADE_IN_UP: 'fadeInUp',
   FADE_IN_DOWN: 'fadeInDown',
   FADE_IN_LEFT: 'fadeInLeft',
@@ -31,51 +30,31 @@ export const PAGE_ANIMATIONS = {
   
   // 缩放动效
   ZOOM: 'zoom',
-  ZOOM_IN: 'zoomIn',
-  ZOOM_IN_UP: 'zoomInUp',
   ZOOM_IN_DOWN: 'zoomInDown',
   
   // 翻转动效
   FLIP: 'flip',
-  FLIP_IN_X: 'flipInX',
-  FLIP_IN_Y: 'flipInY',
   
   // 弹跳动效
   BOUNCE: 'bounce',
-  BOUNCE_IN: 'bounceIn',
-  BOUNCE_IN_UP: 'bounceInUp',
-  BOUNCE_IN_DOWN: 'bounceInDown',
   BOUNCE_IN_LEFT: 'bounceInLeft',
   BOUNCE_IN_RIGHT: 'bounceInRight',
   
   // 旋转动效
-  ROTATE_IN: 'rotateIn',
   ROTATE_IN_DOWN_LEFT: 'rotateInDownLeft',
   ROTATE_IN_DOWN_RIGHT: 'rotateInDownRight',
   ROTATE_IN_UP_LEFT: 'rotateInUpLeft',
   ROTATE_IN_UP_RIGHT: 'rotateInUpRight',
   
   // 光速动效
-  LIGHT_SPEED_IN: 'lightSpeedIn',
   LIGHT_SPEED_IN_LEFT: 'lightSpeedInLeft',
   LIGHT_SPEED_IN_RIGHT: 'lightSpeedInRight',
   
-  // 回弹动效
-  BACK_IN_UP: 'backInUp',
-  BACK_IN_DOWN: 'backInDown',
-  BACK_IN_LEFT: 'backInLeft',
-  BACK_IN_RIGHT: 'backInRight',
-  
-  // 滚动动效
-  ROLL_IN: 'rollIn',
-  
   // 摆动动效
   SWING: 'swing',
-  WOBBLE: 'wobble',
   JELLO: 'jello',
   
   // 心跳动效
-  HEART_BEAT: 'heartBeat',
   PULSE: 'pulse'
 }
 
@@ -117,7 +96,7 @@ export const useAppStore = defineStore('app', () => {
   const pageTagsVisible = computed(() => showPageTags.value)
   const pageTagsShadowEnabled = computed(() => pageTagsShadow.value)
   //默认页面切换动画
-  const currentPageAnimation = ref(PAGE_ANIMATIONS.SLIDE_LEFT)
+  const currentPageAnimation = ref(PAGE_ANIMATIONS.BOUNCE_IN_LEFT)
 
   // actions
   const setTitle = (newTitle) => {
