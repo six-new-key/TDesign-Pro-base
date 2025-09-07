@@ -13,6 +13,18 @@ import { merge } from 'lodash-es'
 import enConfig from 'tdesign-vue-next/es/locale/en_US'
 import zhConfig from 'tdesign-vue-next/es/locale/zh_CN'
 
+// 页面切换动画效果选项
+export const PAGE_ANIMATIONS = {
+  SLIDE_LEFT: 'slide-left',
+  SLIDE_RIGHT: 'slide-right',
+  SLIDE_UP: 'slide-up',
+  SLIDE_DOWN: 'slide-down',
+  FADE: 'fade',
+  ZOOM: 'zoom',
+  FLIP: 'flip',
+  BOUNCE: 'bounce'
+}
+
 export const useAppStore = defineStore('app', () => {
   // state
   const title = ref('')
@@ -50,6 +62,8 @@ export const useAppStore = defineStore('app', () => {
   const breadcrumbVisible = computed(() => showBreadcrumb.value)
   const pageTagsVisible = computed(() => showPageTags.value)
   const pageTagsShadowEnabled = computed(() => pageTagsShadow.value)
+  //默认页面切换动画
+  const currentPageAnimation = ref(PAGE_ANIMATIONS.SLIDE_LEFT)
 
   // actions
   const setTitle = (newTitle) => {
@@ -86,7 +100,7 @@ export const useAppStore = defineStore('app', () => {
 
   const loadThemeConfig = () => {
     const config = getThemeFromStorage()
-    themeMode.value = config.mode
+    themeMode.value = config.mode || THEME_MODE.LIGHT
     updateActualThemeMode()
   }
 
@@ -98,6 +112,11 @@ export const useAppStore = defineStore('app', () => {
     } else {
       setThemeMode(THEME_MODE.LIGHT)
     }
+  }
+  
+  // 设置页面切换动画
+  const setPageAnimation = (animation) => {
+    currentPageAnimation.value = animation
   }
 
   const setSidebarTheme = (newTheme) => {
@@ -294,6 +313,7 @@ export const useAppStore = defineStore('app', () => {
     breadcrumbVisible,
     pageTagsVisible,
     pageTagsShadowEnabled,
+    currentPageAnimation,
     globalConfig,
     setTitle,
     setSidebarTheme,
@@ -311,6 +331,7 @@ export const useAppStore = defineStore('app', () => {
     setPageTagsVisible,
     setPageTagsShadow,
     toggleBreadcrumbVisible,
+    setPageAnimation,
     togglePageTagsVisible,
     togglePageTagsShadow,
     setLockStatus,
@@ -332,6 +353,6 @@ export const useAppStore = defineStore('app', () => {
     key: 'app-store',
     storage: localStorage,
     //只有添加到里面才会持久化
-    paths: ['title', 'sidebarTheme', 'sidebarCollapsed', 'isLocked', 'lockPassword', 'themeMode', 'showBreadcrumb', 'showPageTags', 'pageTagsShadow', 'defaultLang']
+    paths: ['title', 'sidebarTheme', 'sidebarCollapsed', 'isLocked', 'lockPassword', 'themeMode', 'showBreadcrumb', 'showPageTags', 'pageTagsShadow', 'defaultLang', 'currentPageAnimation']
   }
 })

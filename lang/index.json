@@ -462,5 +462,49 @@
 	"byvz43": {
 		"zh-cn": "中文：",
 		"en": "Chinese"
+	},
+	"i52n5z8": {
+		"zh-cn": "页面刷新中...",
+		"en": "The page is refreshing..."
+	},
+	"25biey6": {
+		"zh-cn": "刷新中...",
+		"en": "Refreshing..."
+	},
+	"8kt8tc6": {
+		"zh-cn": " 页面动画 ",
+		"en": "Page animation"
+	},
+	"ac40i44": {
+		"zh-cn": "从左滑入",
+		"en": "Slide in from the left"
+	},
+	"aanjvd4": {
+		"zh-cn": "从右滑入",
+		"en": "Slide in from the right"
+	},
+	"a9sepd4": {
+		"zh-cn": "从下滑入",
+		"en": "From sliding in"
+	},
+	"a9sdyo4": {
+		"zh-cn": "从上滑入",
+		"en": "Slide in from above"
+	},
+	"e7ddy54": {
+		"zh-cn": "淡入淡出",
+		"en": "Fade in and fade out"
+	},
+	"ggpj614": {
+		"zh-cn": "缩放效果",
+		"en": "Zoom effect"
+	},
+	"gqm19h4": {
+		"zh-cn": "翻转效果",
+		"en": "Flip effect"
+	},
+	"clnlpq4": {
+		"zh-cn": "弹跳效果",
+		"en": "Bouncing effect"
 	}
 }

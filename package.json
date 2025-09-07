@@ -1,5 +1,5 @@
 {
-  "name": "TDesign Pro",
+  "name": "TDesign Pro Base",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "axios": "^1.11.0",
     "echarts": "^6.0.0",
     "fast-glob": "^3.3.3",

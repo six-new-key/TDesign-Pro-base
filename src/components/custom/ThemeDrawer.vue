@@ -88,6 +88,22 @@
                     </div>
                 </div>
             </div>
+
+            <!-- 页面动画设置 -->
+            <div class="setting-section">
+                <h4 class="section-title">
+                    页面动画
+                </h4>
+                <div class="animation-options">
+                    <div v-for="animation in pageAnimations" :key="animation.value" class="animation-item"
+                        :class="{ active: appStore.currentPageAnimation === animation.value }"
+                        @click="handleAnimationChange(animation.value)">
+                        <t-icon :name="animation.icon" class="animation-icon" />
+                        <span class="animation-label">{{ animation.label }}</span>
+                        <t-icon v-if="appStore.currentPageAnimation === animation.value" name="check" class="check-icon" />
+                    </div>
+                </div>
+            </div>
         </div>
     </t-drawer>
 </template>
@@ -97,6 +113,7 @@ import { computed } from 'vue'
 import { useAppStore } from '@/store/modules/app'
 import { useLayoutStore } from '@/store/modules/layout'
 import { THEME_MODE } from '@/utils/theme'
+import { PAGE_ANIMATIONS } from '@/store/modules/app'
 
 // Props
 const props = defineProps({
@@ -124,6 +141,18 @@ const themeModes = [
     { value: THEME_MODE.LIGHT, label: '浅色', icon: 'sunny' },
     { value: THEME_MODE.DARK, label: '深色', icon: 'moon' },
     { value: THEME_MODE.AUTO, label: '跟随系统', icon: 'desktop' }
+]
+
+// 页面动画效果选项
+const pageAnimations = [
+    { value: PAGE_ANIMATIONS.SLIDE_LEFT, label: '从左滑入', icon: 'chevron-right' },
+    { value: PAGE_ANIMATIONS.SLIDE_RIGHT, label: '从右滑入', icon: 'chevron-left' },
+    { value: PAGE_ANIMATIONS.SLIDE_UP, label: '从下滑入', icon: 'chevron-up' },
+    { value: PAGE_ANIMATIONS.SLIDE_DOWN, label: '从上滑入', icon: 'chevron-down' },
+    { value: PAGE_ANIMATIONS.FADE, label: '淡入淡出', icon: 'view-module' },
+    { value: PAGE_ANIMATIONS.ZOOM, label: '缩放效果', icon: 'fullscreen' },
+    { value: PAGE_ANIMATIONS.FLIP, label: '翻转效果', icon: 'swap' },
+    { value: PAGE_ANIMATIONS.BOUNCE, label: '弹跳效果', icon: 'jump' }
 ]
 
 // 侧边栏主题开关状态
@@ -170,6 +199,12 @@ const availableLayouts = computed(() => {
 // 处理布局切换
 const handleLayoutChange = async (layoutName) => {
     await layoutStore.setLayout(layoutName)
+    handleApply();
+}
+
+// 处理动画效果切换
+const handleAnimationChange = (animation) => {
+    appStore.setPageAnimation(animation)
     handleApply();
 }
 
@@ -314,6 +349,50 @@ defineExpose({
 
 .action-button {
     flex: 1;
+}
+
+/* 动画选项样式 */
+.animation-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+}
+
+.animation-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid var(--td-border-level-1-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: var(--td-bg-color-container);
+}
+
+.animation-item:hover {
+    border-color: var(--td-brand-color);
+    background: var(--td-bg-color-container-hover);
+}
+
+.animation-item.active {
+    border-color: var(--td-brand-color);
+}
+
+.animation-icon {
+    margin-right: 12px;
+    font-size: 16px;
+    color: var(--td-text-color-secondary);
+}
+
+.animation-item.active .animation-icon {
+    color: var(--td-brand-color);
+}
+
+.animation-label {
+    flex: 1;
+    font-size: 14px;
+    color: var(--td-text-color-primary);
 }
 
 /* 布局选项样式 */
