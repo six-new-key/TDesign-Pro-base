@@ -112,10 +112,9 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useAppStore } from '@/store/modules/app'
+import { useAppStore ,PAGE_ANIMATIONS} from '@/store/modules/app'
 import { useLayoutStore } from '@/store/modules/layout'
 import { THEME_MODE } from '@/utils/theme'
-import { PAGE_ANIMATIONS } from '@/store/modules/app'
 
 // Props
 const props = defineProps({

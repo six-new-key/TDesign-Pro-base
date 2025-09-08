@@ -8,7 +8,7 @@ import App from './App.vue'
 import router from './router'
 import pinia from './store'
 import './style.css'
-import 'animate.css';
+import 'animate.css'
 import 'virtual:svg-icons-register'
 //引入自定义插件用来注册全局组件
 import globalComponent from "@/plugins";

@@ -29,8 +29,7 @@
 import { watch, nextTick, ref, computed } from 'vue'
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
-import { useAppStore } from '@/store/modules/app'
-import { PAGE_ANIMATIONS } from '@/store/modules/app'
+import { useAppStore ,PAGE_ANIMATIONS} from '@/store/modules/app'
 
 const appStore = useAppStore()
 
