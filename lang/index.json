@@ -682,5 +682,37 @@
 	"deil8f5": {
 		"zh-cn": " 控制台 ",
 		"en": "Console"
+	},
+	"2welc49": {
+		"zh-cn": " 关闭其他标签页 ",
+		"en": "Close other tabs"
+	},
+	"g6lwm59": {
+		"zh-cn": " 关闭左侧标签页 ",
+		"en": "Close the left TAB"
+	},
+	"hrrfxs9": {
+		"zh-cn": " 关闭右侧标签页 ",
+		"en": "Close the TAB on the right"
+	},
+	"47v61n9": {
+		"zh-cn": " 关闭所有标签页 ",
+		"en": "Close all tabs"
+	},
+	"5k3eis7": {
+		"zh-cn": "关闭其他标签页",
+		"en": "Close other tabs"
+	},
+	"gqm9x97": {
+		"zh-cn": "关闭左侧标签页",
+		"en": "Close the left TAB"
+	},
+	"fe1sr47": {
+		"zh-cn": "关闭右侧标签页",
+		"en": "Close the TAB on the right"
+	},
+	"382qkb7": {
+		"zh-cn": "关闭所有标签页",
+		"en": "Close all tabs"
 	}
 }
