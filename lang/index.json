@@ -718,5 +718,41 @@
 	"eddyyn2a": {
 		"zh-cn": "\n    #nprogress .bar {\n      background: #0052d9 !important; /* 使用主题蓝色 */\n    }\n  ",
 		"en": "#nprogress .bar {\nbackground: #0052d9 ! important; /* Use theme blue */\n}"
+	},
+	"afug2z4": {
+		"zh-cn": "主要按钮",
+		"en": "Main button"
+	},
+	"isauzb5": {
+		"zh-cn": "测试msg",
+		"en": "Test msg"
+	},
+	"jcve2": {
+		"zh-cn": "测试",
+		"en": "Test"
+	},
+	"ecqomj4": {
+		"zh-cn": "测试no",
+		"en": "Test no"
+	},
+	"ntjd1xe": {
+		"zh-cn": "测试notification",
+		"en": "Test notification"
+	},
+	"7yc3ns6": {
+		"zh-cn": "请输入msg",
+		"en": "Please enter msg"
+	},
+	"87ozpwf": {
+		"zh-cn": "请输入notification",
+		"en": "Please enter notification"
+	},
+	"h4sv2": {
+		"zh-cn": "成功",
+		"en": "Success"
+	},
+	"wwg9io6": {
+		"zh-cn": "表单提交成功",
+		"en": "The form was submitted successfully."
 	}
 }
