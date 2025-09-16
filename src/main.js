@@ -21,4 +21,5 @@ app.use(globalComponent);
 app.use(TDesign)
 app.use(pinia)
 app.use(router)
+
 app.mount('#app')
