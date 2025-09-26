@@ -754,5 +754,17 @@
 	"wwg9io6": {
 		"zh-cn": "表单提交成功",
 		"en": "The form was submitted successfully."
+	},
+	"arekag4": {
+		"zh-cn": "切换主题",
+		"en": "Switch themes"
+	},
+	"e3k42": {
+		"zh-cn": "亮色",
+		"en": "Bright colors"
+	},
+	"i5yz2": {
+		"zh-cn": "暗色",
+		"en": "Dark color"
 	}
 }
