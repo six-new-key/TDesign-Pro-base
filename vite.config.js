@@ -23,7 +23,7 @@ export default defineConfig(({ command, mode }) => {
     },
     server: {
       host: true, // 监听所有地址
-      port: 5173,
+      port: 3000,
       proxy: {
         //设置代理，必须填
         [env.VITE_APP_BASE_API]: {
