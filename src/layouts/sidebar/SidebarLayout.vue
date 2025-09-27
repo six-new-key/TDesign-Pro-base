@@ -110,7 +110,6 @@ const getEnterAnimation = computed(() => {
   }
 })
 
-
 // 监听刷新状态
 watch(
   () => appStore.shouldRefresh,

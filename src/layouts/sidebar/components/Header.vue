@@ -33,6 +33,15 @@
             </t-button>
           </t-tooltip>
 
+          <!-- 主题切换按钮 -->
+          <t-tooltip content="切换主题">
+            <t-button theme="default" shape="square" variant="text" @click="handleThemeChange">
+              <template #icon>
+                <IconFont :name="appStore.themeMode === 'dark' ? 'sunny' : 'moon'" size="14px" />
+              </template>
+            </t-button>
+          </t-tooltip>
+
           <!-- 语言切换，使用下拉菜单 -->
           <t-dropdown :options="langOptions" :min-column-width="90">
             <t-button theme="default" shape="square" variant="text">
@@ -71,6 +80,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { IconFont } from 'tdesign-icons-vue-next';
 import { useRoute } from 'vue-router'
 import { useAppStore } from '@/store/modules/app'
+import { themeChangeWithAnimation } from '@/utils/theme'
 import PageTags from '@/components/page-tags/PageTags.vue'
 import SearchDialog from '@/components/search-dialog/SearchDialog.vue'
 import UserDropdown from '@/components/custom/UserDropdown.vue'
@@ -164,6 +174,13 @@ const openSearchDialog = () => {
 // 刷新页面
 const handleRefresh = () => {
   appStore.triggerRefresh()
+}
+
+// 主题切换
+const handleThemeChange = (e) => {
+  themeChangeWithAnimation(e, () => {
+    appStore.setThemeMode(appStore.themeMode === 'dark' ? 'light' : 'dark')
+  })
 }
 
 // 全屏切换
