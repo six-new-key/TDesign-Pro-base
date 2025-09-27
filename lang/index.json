@@ -91,29 +91,33 @@
 		"zh-cn": "登录成功",
 		"en": "Login successful"
 	},
-	"p5h35y5": {
-		"zh-cn": "侧边栏布局",
-		"en": "Sidebar layout"
+	"kq1t947": {
+		"zh-cn": "侧边栏导航布局",
+		"en": "Sidebar navigation layout"
 	},
-	"md14j5i": {
-		"zh-cn": "传统的侧边栏布局，包含菜单和内容区域",
-		"en": "The traditional sidebar layout includes menu and content areas"
+	"ll8hi29": {
+		"zh-cn": "包含菜单和内容区域",
+		"en": "It includes a menu and content area"
 	},
-	"jty72n4": {
-		"zh-cn": "顶部布局",
-		"en": "Top layout"
+	"m4h4vx6": {
+		"zh-cn": "顶部导航布局",
+		"en": "Top navigation layout"
 	},
-	"2zy687k": {
-		"zh-cn": "顶部导航布局，通常包含顶部菜单和内容区域",
-		"en": "The top navigation layout usually includes the top menu and content area"
+	"h6sub8b": {
+		"zh-cn": "包含顶部菜单和内容区域",
+		"en": "It includes a top menu and a content area"
 	},
-	"e82p1q4": {
-		"zh-cn": "混合布局",
-		"en": "Mixed layout"
+	"vj54jg6": {
+		"zh-cn": "混合导航布局",
+		"en": "Hybrid navigation layout"
 	},
-	"naslmld": {
-		"zh-cn": "侧边栏和顶部导航的混合布局",
-		"en": "A hybrid layout of sidebar and top navigation"
+	"jqwp6lf": {
+		"zh-cn": "包含侧边栏和顶部导航的混合布局",
+		"en": "A hybrid layout featuring a sidebar and top navigation"
+	},
+	"eddyyn2a": {
+		"zh-cn": "\n    #nprogress .bar {\n      background: #0052d9 !important; /* 使用主题蓝色 */\n    }\n  ",
+		"en": "#nprogress .bar {\nbackground: #0052d9 ! important; /* Use theme blue */\n}"
 	},
 	"cyfyi79": {
 		"zh-cn": "正在切换布局...",
@@ -203,6 +207,10 @@
 		"zh-cn": "访问来源",
 		"en": "\"Access source"
 	},
+	"25biey6": {
+		"zh-cn": "刷新中...",
+		"en": "Refreshing..."
+	},
 	"fgkxx3": {
 		"zh-cn": "星期日",
 		"en": "Sunday"
@@ -287,6 +295,102 @@
 		"zh-cn": "跟随系统",
 		"en": "Follow the system"
 	},
+	"ac40i44": {
+		"zh-cn": "从左滑入",
+		"en": "Slide in from the left"
+	},
+	"aanjvd4": {
+		"zh-cn": "从右滑入",
+		"en": "Slide in from the right"
+	},
+	"a9sepd4": {
+		"zh-cn": "从下滑入",
+		"en": "From sliding in"
+	},
+	"a9sdyo4": {
+		"zh-cn": "从上滑入",
+		"en": "Slide in from above"
+	},
+	"e7ddy54": {
+		"zh-cn": "淡入淡出",
+		"en": "Fade in and fade out"
+	},
+	"e78z3x4": {
+		"zh-cn": "淡入向上",
+		"en": "Fade into the upward trend"
+	},
+	"e78z3y4": {
+		"zh-cn": "淡入向下",
+		"en": "Fade in downward"
+	},
+	"e7928p4": {
+		"zh-cn": "淡入向左",
+		"en": "Fade to the left"
+	},
+	"e7909y4": {
+		"zh-cn": "淡入向右",
+		"en": "Fade to the right"
+	},
+	"d563r74": {
+		"zh-cn": "放大向下",
+		"en": "Zoom down"
+	},
+	"clkmdr4": {
+		"zh-cn": "弹跳向左",
+		"en": "Jump to the left"
+	},
+	"clkkf04": {
+		"zh-cn": "弹跳向右",
+		"en": "Jump to the right"
+	},
+	"c6ah0m4": {
+		"zh-cn": "左下旋转",
+		"en": "Rotate to the lower left"
+	},
+	"ax45fd4": {
+		"zh-cn": "右下旋转",
+		"en": "Rotate down to the right"
+	},
+	"c6ag9x4": {
+		"zh-cn": "左上旋转",
+		"en": "Rotate to the upper left"
+	},
+	"ax44oo4": {
+		"zh-cn": "右上旋转",
+		"en": "Rotate to the upper right"
+	},
+	"aunf794": {
+		"zh-cn": "光速左入",
+		"en": "Left entry at the speed of light"
+	},
+	"aulqa04": {
+		"zh-cn": "光速右入",
+		"en": "Right entry at the speed of light"
+	},
+	"ggpj614": {
+		"zh-cn": "缩放效果",
+		"en": "Zoom effect"
+	},
+	"clnlpq4": {
+		"zh-cn": "弹跳效果",
+		"en": "Bouncing effect"
+	},
+	"gqm19h4": {
+		"zh-cn": "翻转效果",
+		"en": "Flip effect"
+	},
+	"czwkc64": {
+		"zh-cn": "摆动效果",
+		"en": "Swing effect"
+	},
+	"dewzeb4": {
+		"zh-cn": "果冻效果",
+		"en": "Jelly effect"
+	},
+	"gmcycd4": {
+		"zh-cn": "脉冲效果",
+		"en": "Pulse effect"
+	},
 	"ai8tm54": {
 		"zh-cn": "主题设置",
 		"en": "Theme Settings"
@@ -319,6 +423,10 @@
 		"zh-cn": " 布局设置 ",
 		"en": "Layout Settings"
 	},
+	"8kvyh96": {
+		"zh-cn": " 页面动效 ",
+		"en": "Page animations"
+	},
 	"dure2": {
 		"zh-cn": "中文",
 		"en": "Chinese"
@@ -334,6 +442,10 @@
 	"ejix2": {
 		"zh-cn": "刷新",
 		"en": "Refresh"
+	},
+	"arekag4": {
+		"zh-cn": "切换主题",
+		"en": "Switch themes"
 	},
 	"ii96jl4": {
 		"zh-cn": "退出全屏",
@@ -362,6 +474,22 @@
 	"ceh33s5": {
 		"zh-cn": "更多...",
 		"en": "More..."
+	},
+	"5k3eis7": {
+		"zh-cn": "关闭其他标签页",
+		"en": "Close other tabs"
+	},
+	"gqm9x97": {
+		"zh-cn": "关闭左侧标签页",
+		"en": "Close the left TAB"
+	},
+	"fe1sr47": {
+		"zh-cn": "关闭右侧标签页",
+		"en": "Close the TAB on the right"
+	},
+	"382qkb7": {
+		"zh-cn": "关闭所有标签页",
+		"en": "Close all tabs"
 	},
 	"7wcz836": {
 		"zh-cn": "搜索导航菜单",
@@ -398,1483 +526,5 @@
 	"wsnp4e8": {
 		"zh-cn": "确认退出登录吗？",
 		"en": "Are you sure you are logging out?"
-	},
-	"7grhuz6": {
-		"zh-cn": "请输入用户名",
-		"en": "Please enter your username"
-	},
-	"2j9vj05": {
-		"zh-cn": "请输入密码",
-		"en": "Please enter the password."
-	},
-	"sua2rea": {
-		"zh-cn": "密码长度不能少于6位",
-		"en": "The password length must not be less than 6 characters"
-	},
-	"yvob6y7": {
-		"zh-cn": "账号或密码错误",
-		"en": "Account or password is incorrect"
-	},
-	"ahgyeie": {
-		"zh-cn": "开箱即用的大型中后台管理系统",
-		"en": "A large-scale middle and back-end management system ready to use out of the box"
-	},
-	"5wld57h": {
-		"zh-cn": "工作台、高准确、界面精美的后台模板",
-		"en": "Workbench, highly accurate, and beautifully designed background templates"
-	},
-	"rfxc917": {
-		"zh-cn": "欢迎回来 👋",
-		"en": "Welcome back 👋"
-	},
-	"f7swrmi": {
-		"zh-cn": "请输入您的账号信息以开始管理您的项目",
-		"en": "Please enter your account information to start managing your project"
-	},
-	"7b32n16": {
-		"zh-cn": "请输入验证码",
-		"en": "Please enter the verification code"
-	},
-	"nbcoc3": {
-		"zh-cn": "验证码",
-		"en": "Verification code"
-	},
-	"hykar44": {
-		"zh-cn": "记住账号",
-		"en": "Remember the account"
-	},
-	"xfgztg5": {
-		"zh-cn": "忘记密码？",
-		"en": "Forgot password?"
-	},
-	"ide6e4": {
-		"zh-cn": " 登录 ",
-		"en": "Log in"
-	},
-	"e5xl2": {
-		"zh-cn": "使用",
-		"en": "\"Use"
-	},
-	"ix5sqvp": {
-		"zh-cn": "包裹业务功能的最外层组件，点击下方图标查看示例代码",
-		"en": "Wrap the outermost component of the business function. Click the icon below to view the sample code"
-	},
-	"byvz43": {
-		"zh-cn": "中文：",
-		"en": "Chinese"
-	},
-	"i52n5z8": {
-		"zh-cn": "页面刷新中...",
-		"en": "The page is refreshing..."
-	},
-	"25biey6": {
-		"zh-cn": "刷新中...",
-		"en": "Refreshing..."
-	},
-	"8kt8tc6": {
-		"zh-cn": " 页面动画 ",
-		"en": "Page animation"
-	},
-	"ac40i44": {
-		"zh-cn": "从左滑入",
-		"en": "Slide in from the left"
-	},
-	"aanjvd4": {
-		"zh-cn": "从右滑入",
-		"en": "Slide in from the right"
-	},
-	"a9sepd4": {
-		"zh-cn": "从下滑入",
-		"en": "From sliding in"
-	},
-	"a9sdyo4": {
-		"zh-cn": "从上滑入",
-		"en": "Slide in from above"
-	},
-	"e7ddy54": {
-		"zh-cn": "淡入淡出",
-		"en": "Fade in and fade out"
-	},
-	"ggpj614": {
-		"zh-cn": "缩放效果",
-		"en": "Zoom effect"
-	},
-	"gqm19h4": {
-		"zh-cn": "翻转效果",
-		"en": "Flip effect"
-	},
-	"clnlpq4": {
-		"zh-cn": "弹跳效果",
-		"en": "Bouncing effect"
-	},
-	"7ckwpf7": {
-		"zh-cn": " 页面d'x ",
-		"en": "Page d'x"
-	},
-	"uqkpqua": {
-		"zh-cn": " 页面d'xiao ",
-		"en": "Page d'xiao"
-	},
-	"8kvyh96": {
-		"zh-cn": " 页面动效 ",
-		"en": "Page animations"
-	},
-	"kq1t947": {
-		"zh-cn": "侧边栏导航布局",
-		"en": "Sidebar navigation layout"
-	},
-	"m4h4vx6": {
-		"zh-cn": "顶部导航布局",
-		"en": "Top navigation layout"
-	},
-	"vj54jg6": {
-		"zh-cn": "混合导航布局",
-		"en": "Hybrid navigation layout"
-	},
-	"ll8hi29": {
-		"zh-cn": "包含菜单和内容区域",
-		"en": "It includes a menu and content area"
-	},
-	"5oqxxyd": {
-		"zh-cn": "通常包含顶部菜单和内容区域",
-		"en": "It usually includes a top menu and a content area"
-	},
-	"h6sub8b": {
-		"zh-cn": "包含顶部菜单和内容区域",
-		"en": "It includes a top menu and a content area"
-	},
-	"jqwp6lf": {
-		"zh-cn": "包含侧边栏和顶部导航的混合布局",
-		"en": "A hybrid layout featuring a sidebar and top navigation"
-	},
-	"j4x02": {
-		"zh-cn": "淡入",
-		"en": "Fade in"
-	},
-	"e78z3x4": {
-		"zh-cn": "淡入向上",
-		"en": "Fade into the upward trend"
-	},
-	"e78z3y4": {
-		"zh-cn": "淡入向下",
-		"en": "Fade in downward"
-	},
-	"e7928p4": {
-		"zh-cn": "淡入向左",
-		"en": "Fade to the left"
-	},
-	"e7909y4": {
-		"zh-cn": "淡入向右",
-		"en": "Fade to the right"
-	},
-	"d5gaj74": {
-		"zh-cn": "放大进入",
-		"en": "Zoom in"
-	},
-	"d563r64": {
-		"zh-cn": "放大向上",
-		"en": "Zoom upwards"
-	},
-	"d563r74": {
-		"zh-cn": "放大向下",
-		"en": "Zoom down"
-	},
-	"n765p4": {
-		"zh-cn": "X轴翻转",
-		"en": "X-axis inversion"
-	},
-	"n7t584": {
-		"zh-cn": "Y轴翻转",
-		"en": "Y-axis inversion"
-	},
-	"cluq104": {
-		"zh-cn": "弹跳进入",
-		"en": "Jump in"
-	},
-	"clkj8z4": {
-		"zh-cn": "弹跳向上",
-		"en": "Jump upwards"
-	},
-	"clkj904": {
-		"zh-cn": "弹跳向下",
-		"en": "Jump downward"
-	},
-	"clkmdr4": {
-		"zh-cn": "弹跳向左",
-		"en": "Jump to the left"
-	},
-	"clkkf04": {
-		"zh-cn": "弹跳向右",
-		"en": "Jump to the right"
-	},
-	"dfwhij4": {
-		"zh-cn": "旋转进入",
-		"en": "Rotate in"
-	},
-	"c6ah0m4": {
-		"zh-cn": "左下旋转",
-		"en": "Rotate to the lower left"
-	},
-	"ax45fd4": {
-		"zh-cn": "右下旋转",
-		"en": "Rotate down to the right"
-	},
-	"c6ag9x4": {
-		"zh-cn": "左上旋转",
-		"en": "Rotate to the upper left"
-	},
-	"ax44oo4": {
-		"zh-cn": "右上旋转",
-		"en": "Rotate to the upper right"
-	},
-	"auvx404": {
-		"zh-cn": "光速进入",
-		"en": "The speed of light enters"
-	},
-	"aunf794": {
-		"zh-cn": "光速左入",
-		"en": "Left entry at the speed of light"
-	},
-	"aulqa04": {
-		"zh-cn": "光速右入",
-		"en": "Right entry at the speed of light"
-	},
-	"bcscc44": {
-		"zh-cn": "回弹向上",
-		"en": "Rebound upward"
-	},
-	"bcscc54": {
-		"zh-cn": "回弹向下",
-		"en": "Rebound downward"
-	},
-	"bcsfgw4": {
-		"zh-cn": "回弹向左",
-		"en": "Rebound to the left"
-	},
-	"bcsdi54": {
-		"zh-cn": "回弹向右",
-		"en": "Rebound to the right"
-	},
-	"ec4t4o4": {
-		"zh-cn": "滚动进入",
-		"en": "Scroll in"
-	},
-	"czwkc64": {
-		"zh-cn": "摆动效果",
-		"en": "Swing effect"
-	},
-	"d2i3jn4": {
-		"zh-cn": "摇摆效果",
-		"en": "Swing effect"
-	},
-	"dewzeb4": {
-		"zh-cn": "果冻效果",
-		"en": "Jelly effect"
-	},
-	"co3pwk4": {
-		"zh-cn": "心跳效果",
-		"en": "Heartbeat effect"
-	},
-	"gmcycd4": {
-		"zh-cn": "脉冲效果",
-		"en": "Pulse effect"
-	},
-	"deil8f5": {
-		"zh-cn": " 控制台 ",
-		"en": "Console"
-	},
-	"2welc49": {
-		"zh-cn": " 关闭其他标签页 ",
-		"en": "Close other tabs"
-	},
-	"g6lwm59": {
-		"zh-cn": " 关闭左侧标签页 ",
-		"en": "Close the left TAB"
-	},
-	"hrrfxs9": {
-		"zh-cn": " 关闭右侧标签页 ",
-		"en": "Close the TAB on the right"
-	},
-	"47v61n9": {
-		"zh-cn": " 关闭所有标签页 ",
-		"en": "Close all tabs"
-	},
-	"5k3eis7": {
-		"zh-cn": "关闭其他标签页",
-		"en": "Close other tabs"
-	},
-	"gqm9x97": {
-		"zh-cn": "关闭左侧标签页",
-		"en": "Close the left TAB"
-	},
-	"fe1sr47": {
-		"zh-cn": "关闭右侧标签页",
-		"en": "Close the TAB on the right"
-	},
-	"382qkb7": {
-		"zh-cn": "关闭所有标签页",
-		"en": "Close all tabs"
-	},
-	"eddyyn2a": {
-		"zh-cn": "\n    #nprogress .bar {\n      background: #0052d9 !important; /* 使用主题蓝色 */\n    }\n  ",
-		"en": "#nprogress .bar {\nbackground: #0052d9 ! important; /* Use theme blue */\n}"
-	},
-	"afug2z4": {
-		"zh-cn": "主要按钮",
-		"en": "Main button"
-	},
-	"isauzb5": {
-		"zh-cn": "测试msg",
-		"en": "Test msg"
-	},
-	"jcve2": {
-		"zh-cn": "测试",
-		"en": "Test"
-	},
-	"ecqomj4": {
-		"zh-cn": "测试no",
-		"en": "Test no"
-	},
-	"ntjd1xe": {
-		"zh-cn": "测试notification",
-		"en": "Test notification"
-	},
-	"7yc3ns6": {
-		"zh-cn": "请输入msg",
-		"en": "Please enter msg"
-	},
-	"87ozpwf": {
-		"zh-cn": "请输入notification",
-		"en": "Please enter notification"
-	},
-	"h4sv2": {
-		"zh-cn": "成功",
-		"en": "Success"
-	},
-	"wwg9io6": {
-		"zh-cn": "表单提交成功",
-		"en": "The form was submitted successfully."
-	},
-<<<<<<< HEAD
-	"f847o17": {
-		"zh-cn": "容器元素不存在",
-		"en": "The container element does not exist"
-	},
-	"v1fghk5": {
-		"zh-cn": "保存为图片",
-		"en": "Save as an image"
-	},
-	"d7tenq4": {
-		"zh-cn": "数据视图",
-		"en": "Data view"
-	},
-	"t5zpxk6": {
-		"zh-cn": "切换为折线图",
-		"en": "Switch to a line chart"
-	},
-	"t59khy6": {
-		"zh-cn": "切换为柱状图",
-		"en": "Switch to a bar chart"
-	},
-	"oxc72": {
-		"zh-cn": "还原",
-		"en": "Restore"
-	},
-	"ed65jo4": {
-		"zh-cn": "测试图表",
-		"en": "Test chart"
-	},
-	"ebnfbe4": {
-		"zh-cn": "浅色主题",
-		"en": "Light color theme"
-	},
-	"eep9264": {
-		"zh-cn": "深色主题",
-		"en": "Dark theme"
-	},
-	"haa72": {
-		"zh-cn": "手机",
-		"en": "Mobile phone"
-	},
-	"ikk62": {
-		"zh-cn": "桌面",
-		"en": "Desktop"
-	},
-	"fo5k2": {
-		"zh-cn": "大屏",
-		"en": "Large screen"
-	},
-	"liv2": {
-		"zh-cn": "1月",
-		"en": "\"January"
-	},
-	"ljq2": {
-		"zh-cn": "2月",
-		"en": "\"February"
-	},
-	"lkl2": {
-		"zh-cn": "3月",
-		"en": "March"
-	},
-	"llg2": {
-		"zh-cn": "4月",
-		"en": "April"
-	},
-	"lmb2": {
-		"zh-cn": "5月",
-		"en": "May"
-	},
-	"ln62": {
-		"zh-cn": "6月",
-		"en": "June"
-	},
-	"m8zzj3": {
-		"zh-cn": "销售额",
-		"en": "Sales volume"
-	},
-	"ekrh2": {
-		"zh-cn": "利润",
-		"en": "Profit"
-	},
-	"bx5dz3": {
-		"zh-cn": "产品A",
-		"en": "Product A"
-	},
-	"bx5e03": {
-		"zh-cn": "产品B",
-		"en": "Product B"
-	},
-	"bx5e13": {
-		"zh-cn": "产品C",
-		"en": "Product C"
-	},
-	"bx5e23": {
-		"zh-cn": "产品D",
-		"en": "Product D"
-	},
-	"bx5e33": {
-		"zh-cn": "产品E",
-		"en": "Product E"
-	},
-	"q5732": {
-		"zh-cn": "销量",
-		"en": "Sales volume"
-	},
-	"f5y9dh4": {
-		"zh-cn": "电子产品",
-		"en": "Electronic products"
-	},
-	"ia1k2": {
-		"zh-cn": "服装",
-		"en": "Clothing"
-	},
-	"qgua2": {
-		"zh-cn": "食品",
-		"en": "Food"
-	},
-	"g3tb2": {
-		"zh-cn": "家居",
-		"en": "Home furnishing"
-	},
-	"np6wan8": {
-		"zh-cn": "响应式测试 - ",
-		"en": "Responsive testing"
-	},
-	"8rfj756": {
-		"zh-cn": "自定义散点图",
-		"en": "Custom scatter plot"
-	},
-	"ahyuns4": {
-		"zh-cn": "主题切换",
-		"en": "Theme switching"
-	},
-	"chvth3": {
-		"zh-cn": "切换到",
-		"en": "Switch to"
-	},
-	"e56l2": {
-		"zh-cn": "主题",
-		"en": "Theme"
-	},
-	"c72ecj4": {
-		"zh-cn": "已切换到",
-		"en": "Switched to"
-	},
-	"b9azi55": {
-		"zh-cn": "响应式切换",
-		"en": "Responsive switching"
-	},
-	"cvrew3": {
-		"zh-cn": "响应式",
-		"en": "Reactive"
-	},
-	"gmcv2": {
-		"zh-cn": "开启",
-		"en": "\"Start\""
-	},
-	"eod62": {
-		"zh-cn": "关闭",
-		"en": "\"Close"
-	},
-	"65cdt86": {
-		"zh-cn": "响应式功能已",
-		"en": "The responsive function has been developed"
-	},
-	"d7k1cn4": {
-		"zh-cn": "数据刷新",
-		"en": "Data refresh"
-	},
-	"psgqo67": {
-		"zh-cn": "图表数据已更新",
-		"en": "The chart data has been updated"
-	},
-	"gms2cz5": {
-		"zh-cn": "数据已刷新",
-		"en": "The data has been refreshed."
-	},
-	"dtgna34": {
-		"zh-cn": "模板加载",
-		"en": "Template loading"
-	},
-	"65m45d6": {
-		"zh-cn": "加载模板: ",
-		"en": "Loading template"
-	},
-	"3a7oeu6": {
-		"zh-cn": "模板加载成功",
-		"en": "The template has been loaded successfully."
-	},
-	"3a8v696": {
-		"zh-cn": "模板加载失败",
-		"en": "Template loading failed"
-	},
-	"u3xryp6": {
-		"zh-cn": "请先选择模板",
-		"en": "Please select the template first"
-	},
-	"c0nc7u4": {
-		"zh-cn": "尺寸变更",
-		"en": "Size change"
-	},
-	"vikfeb6": {
-		"zh-cn": "容器尺寸: ",
-		"en": "Container size"
-	},
-	"bjitxo4": {
-		"zh-cn": "图表点击",
-		"en": "Click on the chart"
-	},
-	"bjfl374": {
-		"zh-cn": "图表就绪",
-		"en": "The chart is ready."
-	},
-	"k044o27": {
-		"zh-cn": "图表初始化完成",
-		"en": "The chart initialization is complete"
-	},
-	"s82say7": {
-		"zh-cn": "事件日志已清空",
-		"en": "The event log has been cleared"
-	},
-	"gbndv14": {
-		"zh-cn": "组件挂载",
-		"en": "Component mounting"
-	},
-	"azz3ed9": {
-		"zh-cn": "测试页面初始化完成",
-		"en": "The initialization of the test page is complete"
-	},
-	"lnribic": {
-		"zh-cn": "ECharts 组件测试",
-		"en": "ECharts component testing"
-	},
-	"hf76oi5": {
-		"zh-cn": "关闭响应式",
-		"en": "Closed reactive"
-	},
-	"r9oqgp5": {
-		"zh-cn": "开启响应式",
-		"en": "Enable responsive design"
-	},
-	"5akppz6": {
-		"zh-cn": " 刷新数据 ",
-		"en": "Refresh the data"
-	},
-	"6k0sgu6": {
-		"zh-cn": "基础图表组件",
-		"en": "Basic chart component"
-	},
-	"f1x2v3": {
-		"zh-cn": "折线图",
-		"en": "Line graph"
-	},
-	"fs2ih3": {
-		"zh-cn": "柱状图",
-		"en": "Bar chart"
-	},
-	"ql1e2": {
-		"zh-cn": "饼图",
-		"en": "Pie chart"
-	},
-	"6k6pkx6": {
-		"zh-cn": "基础图表容器",
-		"en": "Basic chart container"
-	},
-	"bjhtt44": {
-		"zh-cn": "图表模板",
-		"en": "Chart template"
-	},
-	"il0hha4": {
-		"zh-cn": "选择模板",
-		"en": "Select a template"
-	},
-	"x3vtg48": {
-		"zh-cn": " 加载示例数据 ",
-		"en": "Load sample data"
-	},
-	"b964jy5": {
-		"zh-cn": "响应式测试",
-		"en": "Responsive testing"
-	},
-	"a8p1254": {
-		"zh-cn": "事件日志",
-		"en": "Event Log"
-	},
-	"z0isu16": {
-		"zh-cn": " 清空日志 ",
-		"en": "Clear the log"
-	},
-	"c7vr53": {
-		"zh-cn": "仪表板",
-		"en": "Dashboard"
-	},
-	"z433oob": {
-		"zh-cn": "提供各种仪表板图表配置",
-		"en": "Provide various dashboard chart configurations"
-	},
-	"j5jqd04": {
-		"zh-cn": "销售概览",
-		"en": "Sales Overview"
-	},
-	"dmjjnn8": {
-		"zh-cn": "销售数据综合展示",
-		"en": "Comprehensive display of sales data"
-	},
-	"176kis5": {
-		"zh-cn": "KPI指标",
-		"en": "KPI indicators"
-	},
-	"iis0qp8": {
-		"zh-cn": "关键绩效指标展示",
-		"en": "Display of key performance indicators"
-	},
-	"bzicjy4": {
-		"zh-cn": "实时监控",
-		"en": "Real-time monitoring"
-	},
-	"ygo01b8": {
-		"zh-cn": "系统实时监控面板",
-		"en": "Real-time monitoring panel of the system"
-	},
-	"i5c4094": {
-		"zh-cn": "财务分析",
-		"en": "Financial analysis"
-	},
-	"vmpows8": {
-		"zh-cn": "财务数据分析面板",
-		"en": "Financial data analysis panel"
-	},
-	"d7k0js4": {
-		"zh-cn": "数据分析",
-		"en": "Data analysis"
-	},
-	"nq2odga": {
-		"zh-cn": "提供专业数据分析图表",
-		"en": "Provide professional data analysis charts"
-	},
-	"uegvuh6": {
-		"zh-cn": "用户行为分析",
-		"en": "User Behavior Analysis"
-	},
-	"k3hdkr8": {
-		"zh-cn": "用户行为数据分析",
-		"en": "User behavior data analysis"
-	},
-	"9fvfna6": {
-		"zh-cn": "销售数据分析",
-		"en": "Sales data analysis"
-	},
-	"fqfalx8": {
-		"zh-cn": "销售数据深度分析",
-		"en": "In-depth analysis of sales data"
-	},
-	"c8170i4": {
-		"zh-cn": "市场分析",
-		"en": "Market analysis"
-	},
-	"y20vxw8": {
-		"zh-cn": "市场数据综合分析",
-		"en": "Comprehensive analysis of market data"
-	},
-	"byuwv34": {
-		"zh-cn": "客户分析",
-		"en": "Customer analysis"
-	},
-	"313f8j6": {
-		"zh-cn": "客户数据分析",
-		"en": "Customer data analysis"
-	},
-	"a75rb04": {
-		"zh-cn": "业务场景",
-		"en": "Business scenarios"
-	},
-	"j6ar5fb": {
-		"zh-cn": "提供各行业业务场景图表",
-		"en": "Provide business scenario charts for various industries"
-	},
-	"f52b7c4": {
-		"zh-cn": "电商业务",
-		"en": "E-commerce business"
-	},
-	"img3hb8": {
-		"zh-cn": "电商平台业务分析",
-		"en": "Business analysis of e-commerce platforms"
-	},
-	"cqfu83": {
-		"zh-cn": "制造业",
-		"en": "Manufacturing industry"
-	},
-	"ylozvh8": {
-		"zh-cn": "生产制造业务分析",
-		"en": "Analysis of production and manufacturing business"
-	},
-	"iyg7ww4": {
-		"zh-cn": "金融服务",
-		"en": "Financial services"
-	},
-	"v0myxt8": {
-		"zh-cn": "金融服务业务分析",
-		"en": "Analysis of financial services business"
-	},
-	"dbgutp4": {
-		"zh-cn": "教育培训",
-		"en": "Education and training"
-	},
-	"e2vode8": {
-		"zh-cn": "教育培训业务分析",
-		"en": "Analysis of Education and Training business"
-	},
-	"azja9a4": {
-		"zh-cn": "医疗健康",
-		"en": "Medical and health care"
-	},
-	"5vheyp8": {
-		"zh-cn": "医疗健康业务分析",
-		"en": "Medical and health business analysis"
-	},
-	"elji2": {
-		"zh-cn": "华东",
-		"en": "East China"
-	},
-	"emkp2": {
-		"zh-cn": "华南",
-		"en": "South China"
-	},
-	"emix2": {
-		"zh-cn": "华北",
-		"en": "North China"
-	},
-	"nuew2": {
-		"zh-cn": "西南",
-		"en": "Southwest"
-	},
-	"lo12": {
-		"zh-cn": "7月",
-		"en": "July"
-	},
-	"pgvitx5": {
-		"zh-cn": "销售完成率",
-		"en": "Sales completion rate"
-	},
-	"fz9lb75": {
-		"zh-cn": "客户满意度",
-		"en": "Customer satisfaction"
-	},
-	"aa8en54": {
-		"zh-cn": "产品质量",
-		"en": "Product quality"
-	},
-	"bkzibg4": {
-		"zh-cn": "团队效率",
-		"en": "Team efficiency"
-	},
-	"olcf2": {
-		"zh-cn": "访问",
-		"en": "\"Visit\""
-	},
-	"jck92": {
-		"zh-cn": "浏览",
-		"en": "Browse"
-	},
-	"f60q2": {
-		"zh-cn": "咨询",
-		"en": "Consultation"
-	},
-	"dqcq2": {
-		"zh-cn": "下单",
-		"en": "Place an order"
-	},
-	"hn612": {
-		"zh-cn": "支付",
-		"en": "\"Payment"
-	},
-	"bxzgb3": {
-		"zh-cn": "产品页",
-		"en": "Product Page"
-	},
-	"l8nwq3": {
-		"zh-cn": "购物车",
-		"en": "Shopping cart"
-	},
-	"j6lld3": {
-		"zh-cn": "结算页",
-		"en": "Settlement page"
-	},
-	"f7sb03": {
-		"zh-cn": "支付页",
-		"en": "Payment page"
-	},
-	"27k1ha6": {
-		"zh-cn": "加载中...",
-		"en": "Loading..."
-	},
-	"wc1crc8": {
-		"zh-cn": "图表加载中...",
-		"en": "The chart is loading..."
-	},
-	"7swziz6": {
-		"zh-cn": "图表加载失败",
-		"en": "The chart failed to load"
-	},
-	"itbyqo4": {
-		"zh-cn": "重新加载",
-		"en": "Reload"
-	},
-	"hsse2": {
-		"zh-cn": "数据",
-		"en": "\"Data"
-	},
-	"1w7jwsa": {
-		"zh-cn": "<br/>用户数: ",
-		"en": "Number of users:"
-	},
-	"vple5ka": {
-		"zh-cn": "<br/>转化率: ",
-		"en": "Conversion rate:"
-	},
-	"dgxi784": {
-		"zh-cn": "时间: ",
-		"en": "Time"
-	},
-	"nmoj07a": {
-		"zh-cn": "<br/>活跃度: ",
-		"en": "Activity level:"
-	},
-	"ifxmhe4": {
-		"zh-cn": "转化漏斗",
-		"en": "Transformation funnel"
-	},
-	"f716f84": {
-		"zh-cn": "用户路径",
-		"en": "User path"
-	},
-	"ed8i1z4": {
-		"zh-cn": "活跃时段",
-		"en": "Active period"
-	},
-	"fnqgn3": {
-		"zh-cn": "时间段",
-		"en": "Time period"
-	},
-	"es9k2": {
-		"zh-cn": "周一",
-		"en": "Monday"
-	},
-	"esdg2": {
-		"zh-cn": "周二",
-		"en": "Tuesday"
-	},
-	"es9t2": {
-		"zh-cn": "周三",
-		"en": "Wednesday"
-	},
-	"eu0j2": {
-		"zh-cn": "周四",
-		"en": "Thursday"
-	},
-	"esdo2": {
-		"zh-cn": "周五",
-		"en": "Friday"
-	},
-	"esxx2": {
-		"zh-cn": "周六",
-		"en": "Saturday"
-	},
-	"ewzh2": {
-		"zh-cn": "周日",
-		"en": "Sunday"
-	},
-	"hxpc2": {
-		"zh-cn": "星期",
-		"en": "\"Week\""
-	},
-	"hn0w13": {
-		"zh-cn": "用户数",
-		"en": "The number of users"
-	},
-	"j958qw5": {
-		"zh-cn": "活跃热力图",
-		"en": "Active heat map"
-	},
-	"a9jmw04": {
-		"zh-cn": "产品: ",
-		"en": "Product"
-	},
-	"n8ke6o9": {
-		"zh-cn": "<br/>销量: ",
-		"en": "Sales volume:"
-	},
-	"tizr8w9": {
-		"zh-cn": "<br/>收入: ",
-		"en": "Income:"
-	},
-	"h3enlya": {
-		"zh-cn": "<br/>销售额: ",
-		"en": "Sales volume:"
-	},
-	"j5pk5e4": {
-		"zh-cn": "销售趋势",
-		"en": "Sales trends"
-	},
-	"a9y2bb4": {
-		"zh-cn": "产品分布",
-		"en": "Product distribution"
-	},
-	"avhk2b4": {
-		"zh-cn": "区域销售",
-		"en": "Regional sales"
-	},
-	"hnu72": {
-		"zh-cn": "收入",
-		"en": "Income"
-	},
-	"xaxv8m6": {
-		"zh-cn": "销量收入关系",
-		"en": "Sales volume and revenue relationship"
-	},
-	"aa9ep44": {
-		"zh-cn": "产品销售",
-		"en": "Product sales"
-	},
-	"e9bbc3": {
-		"zh-cn": "平均值",
-		"en": "Average value"
-	},
-	"fipyt3": {
-		"zh-cn": "最大值",
-		"en": "Maximum value"
-	},
-	"fj7rh3": {
-		"zh-cn": "最小值",
-		"en": "Minimum value"
-	},
-	"m1fd9jb": {
-		"zh-cn": "<br/>市场份额: ",
-		"en": "Market share:"
-	},
-	"aiwx33a": {
-		"zh-cn": "%<br/>价值: ",
-		"en": "% Value:"
-	},
-	"u8f9zk9": {
-		"zh-cn": "<br/>得分: ",
-		"en": "Score:"
-	},
-	"8upyul5": {
-		"zh-cn": "品牌知名度",
-		"en": "Brand awareness"
-	},
-	"wqv8ad5": {
-		"zh-cn": "价格竞争力",
-		"en": "Price competitiveness"
-	},
-	"dcjjeb4": {
-		"zh-cn": "服务水平",
-		"en": "Service level"
-	},
-	"asbqib4": {
-		"zh-cn": "创新能力",
-		"en": "Innovation ability"
-	},
-	"c866vk4": {
-		"zh-cn": "市场渗透",
-		"en": "Market penetration"
-	},
-	"c8aout4": {
-		"zh-cn": "市场规模",
-		"en": "Market size"
-	},
-	"ombawq6": {
-		"zh-cn": "增长率(%)",
-		"en": "Growth rate (%)"
-	},
-	"c80y484": {
-		"zh-cn": "市场份额",
-		"en": "Market share"
-	},
-	"c8b7d84": {
-		"zh-cn": "市场趋势",
-		"en": "Market trend"
-	},
-	"180ro96": {
-		"zh-cn": "细分市场增长",
-		"en": "Growth of segmented markets"
-	},
-	"6k03dy5": {
-		"zh-cn": "竞争力分析",
-		"en": "Competitiveness analysis"
-	},
-	"qvc35ma": {
-		"zh-cn": "<br/>客户数: ",
-		"en": "Number of customers:"
-	},
-	"vo3vjf9": {
-		"zh-cn": "<br/>占比: ",
-		"en": "Proportion:"
-	},
-	"g18zit5": {
-		"zh-cn": "客户群: ",
-		"en": "Customer group"
-	},
-	"1u0loza": {
-		"zh-cn": "<br/>留存率: ",
-		"en": "Retention rate:"
-	},
-	"d7s41d4": {
-		"zh-cn": "新客获取",
-		"en": "Acquisition of new customers"
-	},
-	"byzgrp4": {
-		"zh-cn": "客户流失",
-		"en": "Customer churn"
-	},
-	"byu9iy4": {
-		"zh-cn": "客户价值",
-		"en": "Customer value"
-	},
-	"3vsbyp8": {
-		"zh-cn": "客户生命周期价值",
-		"en": "Customer lifetime value"
-	},
-	"y0jcsk6": {
-		"zh-cn": "留存率(%)",
-		"en": "Retention rate (%)"
-	},
-	"d7navl4": {
-		"zh-cn": "新客数量",
-		"en": "Number of new customers"
-	},
-	"w1bhfv6": {
-		"zh-cn": "流失率(%)",
-		"en": "Loss rate (%)"
-	},
-	"bz2emt4": {
-		"zh-cn": "客户细分",
-		"en": "Customer segmentation"
-	},
-	"n5rsy97": {
-		"zh-cn": "价值-留存分析",
-		"en": "Value-retention analysis"
-	},
-	"kwf6b3": {
-		"zh-cn": "警戒线",
-		"en": "Cordon"
-	},
-	"kv96k3": {
-		"zh-cn": "订单量",
-		"en": "Order volume"
-	},
-	"dwfuj3": {
-		"zh-cn": "客户数",
-		"en": "Number of customers"
-	},
-	"2hxw8w8": {
-		"zh-cn": "{value}万",
-		"en": "{value} ten thousand"
-	},
-	"eruc2": {
-		"zh-cn": "占比",
-		"en": "Proportion"
-	},
-	"oj2s2": {
-		"zh-cn": "趋势",
-		"en": "Trend"
-	},
-	"avdxk34": {
-		"zh-cn": "分类销售",
-		"en": "Classified sales"
-	},
-	"av67oi4": {
-		"zh-cn": "区域分布",
-		"en": "Regional distribution"
-	},
-	"ej3nwza": {
-		"zh-cn": "<br/>当前值: ",
-		"en": "Current value:"
-	},
-	"9h4guma": {
-		"zh-cn": "<br/>目标值: ",
-		"en": "Target value:"
-	},
-	"r6262aa": {
-		"zh-cn": "<br/>完成率: ",
-		"en": "Completion rate:"
-	},
-	"xbq8ie6": {
-		"zh-cn": "CPU使用率",
-		"en": "CPU usage rate"
-	},
-	"ojyuyd5": {
-		"zh-cn": "内存使用率",
-		"en": "Memory usage rate"
-	},
-	"gl7qmx4": {
-		"zh-cn": "网络流量",
-		"en": "Network traffic"
-	},
-	"lxdhim6": {
-		"zh-cn": "使用率(%)",
-		"en": "Utilization rate (%)"
-	},
-	"b7r4cg4": {
-		"zh-cn": "告警级别",
-		"en": "Alarm level"
-	},
-	"e46m2": {
-		"zh-cn": "信息",
-		"en": "\"Information"
-	},
-	"o6902": {
-		"zh-cn": "警告",
-		"en": "Warning"
-	},
-	"q4mu2": {
-		"zh-cn": "错误",
-		"en": "\"Error"
-	},
-	"e3bc2": {
-		"zh-cn": "严重",
-		"en": "\"Serious"
-	},
-	"dcknjz4": {
-		"zh-cn": "服务状态",
-		"en": "Service status"
-	},
-	"b7ix474": {
-		"zh-cn": "告警事件",
-		"en": "Alarm event"
-	},
-	"bhu1906": {
-		"zh-cn": "万<br/>",
-		"en": "Wan"
-	},
-	"hnsb2": {
-		"zh-cn": "支出",
-		"en": "Expenditure"
-	},
-	"hnf403": {
-		"zh-cn": "现金流",
-		"en": "Cash flow"
-	},
-	"gf8nrl6": {
-		"zh-cn": "金额(万元)",
-		"en": "Amount (ten thousand yuan"
-	},
-	"ps57bv7": {
-		"zh-cn": "现金流(万元)",
-		"en": "Cash flow (ten thousand yuan)"
-	},
-	"b4znge6": {
-		"zh-cn": "电商业务分析",
-		"en": "Analysis of e-commerce business"
-	},
-	"u5pjif9": {
-		"zh-cn": "<br/>开盘: ",
-		"en": "<br/> Opening"
-	},
-	"tdiad99": {
-		"zh-cn": "<br/>收盘: ",
-		"en": "Closing price:"
-	},
-	"tb6byp9": {
-		"zh-cn": "<br/>最低: ",
-		"en": "Minimum:"
-	},
-	"t040lj9": {
-		"zh-cn": "<br/>最高: ",
-		"en": "Highest:"
-	},
-	"b7qaaq4": {
-		"zh-cn": "品类表现",
-		"en": "Category performance"
-	},
-	"98x33h6": {
-		"zh-cn": "订单/销售额",
-		"en": "Order/Sales Volume"
-	},
-	"qabws15": {
-		"zh-cn": "用户活跃度",
-		"en": "User activity"
-	},
-	"octfx86": {
-		"zh-cn": "生产制造分析",
-		"en": "Production and manufacturing analysis"
-	},
-	"e6fc2": {
-		"zh-cn": "产量",
-		"en": "Output"
-	},
-	"ctgib3": {
-		"zh-cn": "合格率",
-		"en": "Pass rate"
-	},
-	"i01vk84": {
-		"zh-cn": "设备效率",
-		"en": "Equipment efficiency"
-	},
-	"mn5m2": {
-		"zh-cn": "能耗",
-		"en": "Energy consumption"
-	},
-	"hhs9xo6": {
-		"zh-cn": "产量/合格率",
-		"en": "Output/pass rate"
-	},
-	"fltjgz5": {
-		"zh-cn": "效率(%)",
-		"en": "Efficiency (%)"
-	},
-	"hxi4m3": {
-		"zh-cn": "目标线",
-		"en": "Target line"
-	},
-	"xqjpzu6": {
-		"zh-cn": "金融服务分析",
-		"en": "Financial Services Analysis"
-	},
-	"i5nqw44": {
-		"zh-cn": "资产配置",
-		"en": "Asset allocation"
-	},
-	"jwcbqz4": {
-		"zh-cn": "风险指标",
-		"en": "Risk indicator"
-	},
-	"c0tz43": {
-		"zh-cn": "交易量",
-		"en": "Trading volume"
-	},
-	"d9mdng4": {
-		"zh-cn": "收益表现",
-		"en": "Earnings performance"
-	},
-	"w7iibd6": {
-		"zh-cn": "收益率(%)",
-		"en": "Yield rate (%)"
-	},
-	"e04l2": {
-		"zh-cn": "价格",
-		"en": "Price"
-	},
-	"dai433": {
-		"zh-cn": "基准线",
-		"en": "Baseline"
-	},
-	"aehws44": {
-		"zh-cn": "价格走势",
-		"en": "Price trend"
-	},
-	"dl3huf6": {
-		"zh-cn": "教育培训分析",
-		"en": "Analysis of Education and Training"
-	},
-	"7ti3m9b": {
-		"zh-cn": "<br/>综合评分: ",
-		"en": "Comprehensive score:"
-	},
-	"cslszi4": {
-		"zh-cn": "报名人数",
-		"en": "Number of registrants"
-	},
-	"bv6gdh4": {
-		"zh-cn": "学习进度",
-		"en": "Learning progress"
-	},
-	"i676f44": {
-		"zh-cn": "课程评价",
-		"en": "Course evaluation"
-	},
-	"cw96ja4": {
-		"zh-cn": "成绩分布",
-		"en": "Distribution of grades"
-	},
-	"i5xc9t4": {
-		"zh-cn": "课程内容",
-		"en": "Course content"
-	},
-	"d699qs4": {
-		"zh-cn": "教学质量",
-		"en": "Teaching quality"
-	},
-	"bwvwx3": {
-		"zh-cn": "互动性",
-		"en": "Interactivity"
-	},
-	"dzjtp3": {
-		"zh-cn": "实用性",
-		"en": "Practicality"
-	},
-	"jf0nwz4": {
-		"zh-cn": "难度适中",
-		"en": "Moderate difficulty"
-	},
-	"cw9oyb4": {
-		"zh-cn": "成绩区间",
-		"en": "Grade range"
-	},
-	"c0jpyn4": {
-		"zh-cn": "学生人数",
-		"en": "The number of students"
-	},
-	"cohvyv6": {
-		"zh-cn": "完成率(%)",
-		"en": "Completion rate (%)"
-	},
-	"cswdy44": {
-		"zh-cn": "报名趋势",
-		"en": "Registration trends"
-	},
-	"53oa965": {
-		"zh-cn": "课程完成率",
-		"en": "Course completion rate"
-	},
-	"ozktxk6": {
-		"zh-cn": "医疗健康分析",
-		"en": "Medical and health analysis"
-	},
-	"mtj1": {
-		"zh-cn": "率",
-		"en": "rate"
-	},
-	"cq2vw04": {
-		"zh-cn": "患者流量",
-		"en": "Patient flow"
-	},
-	"e7f6a84": {
-		"zh-cn": "治疗效果",
-		"en": "Therapeutic effect"
-	},
-	"ia17mz4": {
-		"zh-cn": "资源利用",
-		"en": "Resource utilization"
-	},
-	"ierzd34": {
-		"zh-cn": "质量指标",
-		"en": "Quality indicators"
-	},
-	"cq1k0x4": {
-		"zh-cn": "患者数量",
-		"en": "The number of patients"
-	},
-	"abgjgc6": {
-		"zh-cn": "利用率(%)",
-		"en": "Utilization rate (%)"
-	},
-	"ieysh54": {
-		"zh-cn": "质量评分",
-		"en": "Quality score"
-	},
-	"2hxvgh8": {
-		"zh-cn": "{value}分",
-		"en": "{value} points"
-	},
-	"jhm9es4": {
-		"zh-cn": "门诊患者",
-		"en": "Outpatients"
-	},
-	"amm2gl4": {
-		"zh-cn": "住院患者",
-		"en": "Inpatient"
-	},
-	"gegze3": {
-		"zh-cn": "治愈率",
-		"en": "recovery rate"
-	},
-	"1lu8785": {
-		"zh-cn": "资源利用率",
-		"en": "Resource utilization rate"
-	},
-	"dcpfbv4": {
-		"zh-cn": "服务质量",
-		"en": "Service quality"
-	},
-	"c6gpj3": {
-		"zh-cn": "优秀线",
-		"en": "\"Excellent line"
-	},
-	"7p9he6f": {
-		"zh-cn": "图表加载失败，请检查数据或配置",
-		"en": "The chart failed to load. Please check the data or configuration"
-	},
-	"pkfc2": {
-		"zh-cn": "重试",
-		"en": "Retry"
-	},
-	"lpj02": {
-		"zh-cn": "系列",
-		"en": "Series"
-	},
-	"dcv57g4": {
-		"zh-cn": "暂无数据",
-		"en": "No data available for the time being."
-	},
-	"1vyee66": {
-		"zh-cn": "访问设备分析",
-		"en": "Analysis of Access devices"
-	},
-	"6dud9l6": {
-		"zh-cn": "访问来源分布",
-		"en": "Distribution of access sources"
-	},
-	"nu9s2z6": {
-		"zh-cn": "流量渠道占比",
-		"en": "Proportion of traffic channels"
-	},
-	"f1a9sn6": {
-		"zh-cn": "月度数据对比",
-		"en": "Monthly data comparison"
-=======
-	"arekag4": {
-		"zh-cn": "切换主题",
-		"en": "Switch themes"
-	},
-	"e3k42": {
-		"zh-cn": "亮色",
-		"en": "Bright colors"
-	},
-	"i5yz2": {
-		"zh-cn": "暗色",
-		"en": "Dark color"
->>>>>>> 8e12958ef7f6021d7b854737f9c8f334394da29b
 	}
 }
