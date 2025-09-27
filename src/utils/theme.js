@@ -30,7 +30,7 @@ export function setThemeMode(mode) {
  * @param {number} options.duration - 动画持续时间，默认400ms
  */
 export function themeChangeWithAnimation(e, themeChangeCallback, options = {}) {
-  const { duration = 400 } = options
+  const { duration = 500 } = options
 
   // 检查浏览器是否支持 View Transition API
   if (!document.startViewTransition) {

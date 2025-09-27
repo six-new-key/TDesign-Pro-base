@@ -526,5 +526,81 @@
 	"wsnp4e8": {
 		"zh-cn": "确认退出登录吗？",
 		"en": "Are you sure you are logging out?"
+	},
+	"wwg9io6": {
+		"zh-cn": "表单提交成功",
+		"en": "The form was submitted successfully."
+	},
+	"h4sv2": {
+		"zh-cn": "成功",
+		"en": "Success"
+	},
+	"isauzb5": {
+		"zh-cn": "测试msg",
+		"en": "Test msg"
+	},
+	"ntjd1xe": {
+		"zh-cn": "测试notification",
+		"en": "Test notification"
+	},
+	"jjipx926": {
+		"zh-cn": "\n    #nprogress .bar {\n      background: red !important; /* 使用主题蓝色 */\n    }\n  ",
+		"en": "#nprogress .bar {\nbackground: red ! important; /* Use theme blue */\n}"
+	},
+	"dv772k2o": {
+		"zh-cn": "\n    #nprogress .bar {\n      background: var(--td-brand-color) !important; /* 使用主题蓝色 */\n    }\n  ",
+		"en": "#nprogress .bar {\nbackground: var(--td-brand-color) ! important; /* Use theme blue */\n}"
+	},
+	"7grhuz6": {
+		"zh-cn": "请输入用户名",
+		"en": "Please enter your username"
+	},
+	"2j9vj05": {
+		"zh-cn": "请输入密码",
+		"en": "Please enter the password."
+	},
+	"sua2rea": {
+		"zh-cn": "密码长度不能少于6位",
+		"en": "The password length must not be less than 6 characters"
+	},
+	"yvob6y7": {
+		"zh-cn": "账号或密码错误",
+		"en": "Account or password is incorrect"
+	},
+	"ahgyeie": {
+		"zh-cn": "开箱即用的大型中后台管理系统",
+		"en": "A large-scale middle and back-end management system ready to use out of the box"
+	},
+	"5wld57h": {
+		"zh-cn": "工作台、高准确、界面精美的后台模板",
+		"en": "Workbench, highly accurate, and beautifully designed background templates"
+	},
+	"rfxc917": {
+		"zh-cn": "欢迎回来 👋",
+		"en": "Welcome back 👋"
+	},
+	"f7swrmi": {
+		"zh-cn": "请输入您的账号信息以开始管理您的项目",
+		"en": "Please enter your account information to start managing your project"
+	},
+	"7b32n16": {
+		"zh-cn": "请输入验证码",
+		"en": "Please enter the verification code"
+	},
+	"nbcoc3": {
+		"zh-cn": "验证码",
+		"en": "Verification code"
+	},
+	"hykar44": {
+		"zh-cn": "记住账号",
+		"en": "Remember the account"
+	},
+	"xfgztg5": {
+		"zh-cn": "忘记密码？",
+		"en": "Forgot password?"
+	},
+	"ide6e4": {
+		"zh-cn": " 登录 ",
+		"en": "Log in"
 	}
 }
